@@ -1,5 +1,5 @@
 # qishwar
-Repertory of resources for Ancash Quechua
+Repository of resources for Ancash Quechua
 
 Dictionaries
 - Gary J. PARKER, _Diccionario polilectal del quechua de Ancash_, 1975
