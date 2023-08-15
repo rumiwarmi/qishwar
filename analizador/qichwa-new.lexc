@@ -1,0 +1,152 @@
+
+
+LEXICON Root
+Adv ;
+Adj ;
+Det ;
+Noun ;
+VTr ;
+VInt ;
+Num ;
+Interj ;
+Pron ;
+PronPers ;
+PronReflx ;
+Prep ;
+Conj ;
+Adp ;
+PropNoun ;
+AdvEsp ;
+
+
+
+LEXICON Det
+tsay InvarDet;
+kay InvarDet;
+hay InvarDet;
+taqay InvarDet;
+wak InvarDet;
+kada InvarDet;
+huk	InvarDet;
+
+
+LEXICON PronPers
+nuqa Prs;
+nuqakuna Prs;
+qam Prs;
+qamkuna Prs;
+pay Prs;
+paykuna Prs;
+nuqantsik Prs;
+
+LEXICON PronReflx
+kiki Reflex;
+
+! huk + évidentiel = pronom
+
+
+LEXICON Adv
+sellaama
+
+
+LEXICON Num
+ishka NumRoot;
+kima NumRoot;
+chusku NumRoot;
+pistqa NumRoot;
+huqta NumRoot;
+
+ishkaq NumHum;
+kimaq NumHum;
+chuskuq NumHum;
+pitsqaq NumHum;
+huqtaq NumHum;
+chunkaq NumHum;
+
+huk NumCard;
+ishkay NumCard;
+kimsa NumCard;
+kinsa NumCard;
+chusku NumCard;
+pitsqa NumCard;
+huqta NumCard;
+suqta NumCard;
+qanchis NumCard;
+pusaq NumCard;
+puwaq NumCard;
+isqun NumCard;
+chunka NumCard;
+pachak NumCard;
+waranqa NumCard;
+
+!! PRESTAMOS !!
+uno NumInvar;
+dos NumInvar;
+tres NumInvar;
+kwatru NumInvar;
+sinku NumInvar;
+seis NumInvar;
+syete NumInvar;
+dyes NumInvar;
+onsi NumInvar;
+dose NumInvar;
+dosi NumInvar;
+trese NumInvar;
+beynti NumInvar;
+
+! ------------- Invariable roots ------------- !
+LEXICON AdvEsp
+ademas AdvInvar;
+apenas	AdvInvar;
+demasyadu AdvInvar;
+felismente AdvInvar;
+kasi AdvInvar;
+komo AdvInvar; ! podría ser SCONJ
+lomismu AdvInvar;
+nunka AdvInvar;
+talbes AdvInvar;
+todabia AdvInvar;
+unikamente AdvInvar;
+
+LEXICON Adp
+desde AdpEsp;
+hasta AdpEsp;
+
+LEXICON Conj
+si Sconj;
+i Cconj;
+o Cconj;
+pero Cconj;
+peru Cconj;
+ni Cconj;
+sino Cconj;
+
+
+! ------------------- ROOT TAGS ------------------- !
+
+LEXICON InvarDet
+[DET]:0 #;
+
+LEXICON Prs
+[PRON.Prs]:0 LlaaSlot;
+
+LEXICON Reflex
+[PRON.Refl]:0 Pers;
+
+LEXICON AdvInvar
+[ADV]:0 #;
+
+LEXICON AdpEsp
+[ADP]:0 #;
+
+LEXICON Sconj
+[SCONJ]:0 #;
+
+LEXICON Sconj
+[CCONJ]:0 #;
+
+! ------------------------------------------------- !
+
+LEXICON LlaaSlot
++llaA[Lim]:^llaa Case;
+Case;
