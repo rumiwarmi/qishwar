@@ -26,7 +26,7 @@ define FirstPers "&" -> a || a "^" _ ,,
 define Euphony u -> a || "^" [r p | r k | k | y k]  _ "^" (?* "^") [m u | p u | m a | t s i] ;
 
 # El aplicativo -pU se convierte en -pa delante de -tsi, -mu o -maA
-#define EuphonyPu p u -> p a || "^" _ "^" (?* "^") [t s i | m u | m a] ;
+define EuphonyPu p u -> p a || "^" _ "^" (?* "^") [t s i | m u | m a] ;
 
 
 # La eufonía se aplica también a verbos cuya raíz contiene esos sufijos : qarqu, qarpu, qarku ; yarku, yarqu, yarpu (la lista queda por completar)
@@ -36,11 +36,14 @@ define EuphonyRoot u -> a || [y | q] a [r q | r p | r k ] _ "^" (?* "^") [m u | 
 # Los sufijos -naA, -ykachaA, -kachaA, -paA, -kaA, -raA, -ykaA, -llaA, -yaA et -maA pierden la duración vocálica ante sílabas cerradas
 define VowelShortening a a -> a || "^" [n | y k a c h | k a c h | p | k | r | y k | l l | y | m ] _ "^" closedSyl ;
 
+# La reducción vocálica se observa a veces delante de -mu, en general despues de una vocal larga  (shayamu-, chaayamu-, yarqaraykaayamunnam, ...)
+define VowelShorteningYaa a a (->) a || "^" y  _ (?* "^") m u ;
+define ShorteningShaa a a -> a || .#. s h _ "^" y a ;
+
+
 # La reducción vocálica aparece también en las raices verbales shaa-, chaa-, rikaa-, kachakaa-, mantsakaa- (la lista queda por completar)
 define RootShortening a a -> a || .#. [ c h | s h | r i k | k a c h a k | m a n t s a k ] _ "^" closedSyl ;
 
-# La reducción vocálica se observa a veces delante de -mu, en general despues de una vocal larga  (shayamu-, chaayamu-, yarqaraykaayamunnam, ...)
-define VowelShorteningYaa a a (->) a || "^" y  _ "^" (?* "^") mu ;
 
 # El sufijo -chuu (variante de -chaw) pierde su duración en final de palabra
 define VowelShorteningChuu	u u -> u || "^" c h _ .#. ;
@@ -73,8 +76,9 @@ define Grammar  Lexicon	.o.
 				EuphonyPu .o.
 				EuphonyRoot .o.
 				VowelShortening .o.
-				RootShortening .o.
 				VowelShorteningYaa .o.
+				ShorteningShaa .o.
+				RootShortening .o.
 				VowelShorteningChuu .o.
 				QamQan .o.
 				Epenthesis .o.

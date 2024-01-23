@@ -42,6 +42,9 @@ define VowelShorteningChuu	u u -> u || "^" c h _ .#. ;
 define FinalChiHuaylas i (->) 0 || "^" c h _ .#. ;
 
 # Non standard spelling
+
+define Labialisation n (->) m || "^" _ "^" p ;
+
 # define Monopthong a y -> e e ,,
 #			      u y -> i i ,,
 #			      a w -> o o ;
