@@ -1,0 +1,444 @@
+LEXICON Root
+Noun ;
+V ;
+Adj ;
+
+
+LEXICON Noun
+(guessed)^GUESS:0^GUESS Ninf;
+abogadu	Ninf;
+agosto	Ninf;
+ahenti Ninf;
+alaha	Ninf;
+alba	Ninf;
+albañil	Ninf;
+alkol	Ninf;
+amiga	Ninf;
+andas	Ninf;
+anillu	Ninf;
+awtu	Ninf;
+awtumobil Ninf;
+awtoridaa	Ninf;
+banda	Ninf;
+bes	Ninf;
+bisita	Ninf;
+boletu Ninf;
+chofer	Ninf;
+comunidad Ninf;
+desayunu Ninf;
+destinu	Ninf;
+direktor Ninf;
+diya	Ninf;
+dokumentu Ninf;
+eramyenta Ninf;
+ermanu	Ninf;
+eskwela Ninf;
+estansya Ninf;
+esti	Ninf;
+fabrika Ninf;
+fwegos	Ninf;
+gastu	Ninf;
+gobernador Ninf;
+hacienda Ninf;
+hefe	Ninf;
+hilu	Ninf;
+hoben Ninf;
+iglesya	Ninf;
+kadena Ninf;
+kapilla	Ninf;
+karetera Ninf;
+karga	Ninf;
+katekista	Ninf;
+kolchon	Ninf;
+konehu Ninf;
+kwarto	Ninf;
+ley	Ninf;
+madrina Ninf;
+mayordomu Ninf;
+medyan	Ninf;
+merkadu	Ninf;
+mikru	Ninf;
+misa	Ninf;
+misyon	Ninf;
+misyoneru	Ninf;
+muchachu Ninf;
+munisipal Ninf;
+oesti	Ninf;
+ofisina	Ninf;
+ofisyu	Ninf;
+omnibus	Ninf;
+ora	Ninf;
+ospital	Ninf;
+otel	Ninf;
+padrinu Ninf;
+pantyon Ninf;
+paroku	Ninf;
+patron Ninf;
+pasaheru	N
+pelukeriya	Ninf;
+persona Ninf;
+polisiya	Ninf;
+popular	Ninf;
+potreru Ninf;
+plasa	Ninf;
+profesor Ninf;
+prosesyon Ninf;
+pweblu	Ninf;
+rekursu	Ninf;
+relihyon Ninf;
+restawranti	Ninf;
+retablu	Ninf;
+rey Ninf;
+ropa Ninf;
+rosaryu Ninf;
+semana	Ninf;
+señor	Ninf;
+señora	Ninf;
+señorita Ninf;
+silleta	Ninf;
+simyentu Ninf;
+sityu Ninf;
+sobrina Ninf;
+sobrinu Ninf;
+solaki Ninf; ! de l'esp zócalo
+sosyu Ninf;
+sotana	Ninf;
+subprefektu	Ninf;
+swegru Ninf;
+tareya Ninf;
+techu	Ninf;
+teha Ninf;
+teremotu Ninf;
+toru Ninf;
+trabahu Ninf;
+trigu	Ninf;
+tyempu	Ninf;
+yesu	Ninf;
+yunta	Ninf;
+
+
+LEXICON V
+(guessed)^GUESS:0^GUESS Vguess;
+abansa	Vguess;
+akusa	Vguess;
+alkila	Vguess;
+apura	Vguess;
+aregla	Vguess;
+asepta	Vguess;
+baha	Vguess;
+besti	Vguess;
+bisita	Vguess;
+desayuna	Vguess;
+despidi	Vguess;
+despedi	Vguess;
+dibuha	Vguess;
+diskuti	Vguess;
+dura	Vguess;
+entrega	Vguess;
+explika	Vguess;
+falta	Vguess;
+firma	Vguess;
+gana	Vguess;
+karga	Vguess;
+keda	Vguess;
+kori	Vguess;
+maneha	Vguess;
+necesita	Vguess;
+pasa	Vguess;
+pensa	Vguess;
+prebeni	Vguess;
+proibir	Vguess;
+prokura Vguess;
+resa	Vguess;
+sena	Vguess;
+señala	Vguess;
+sirwi	Vguess;
+toka	Vguess;
+tiñi	Vguess;
+trata	Vguess;
+
+LEXICON Adj
+(guessed)^GUESS:0^GUESS Adjinf;
+enteru Adjinf;
+hoben Adjinf;
+huntu Adjinf;
+listu Adjinf;
+riku Adjinf;
+
+LEXICON Ninf
+[N]:0 #;
+[N]: PossMark;
+[N]: Pred;
+[N]: NounToVerb;
+
+LEXICON Adjinf
+[ADJ]:0 #;
+[ADJ]:0 NounToVerb;
+
+LEXICON NounToVerb
++yaA[Transf](VInt):^yaa S1;
++taA[Transl](VInt):^taa S1;
++tsaA[Transl](VInt):^tsaa S1; !tsaa+tsi
+
+LEXICON Pred
++ntin[Tot]:^ntin Indep;
++sapa[Augm]:^sapa Indep;
++nnaq[Prv]:^nnaq Indep;
+
+LEXICON Vguess
+[V]:0 S1;
+
+LEXICON S1
++tsi[Fact]:^tsi S2;
++naA[Prosp]:^naa S2;
++ykachaA[Disp]:^ykachaa S2;
++kachaA[Iter]:^kachaa S2;
+S2;
+
+LEXICON S2
++paA[Exc]:^paa S3;
++pu[Apl]:^pu S3;
+S3;
+
+LEXICON S3
++kaA[Pass]:^kaa S4;
++nakU[Recp]:^naku S5;
++nakU[Recp]:^naka S5;
++raA[Dur]:^raa S4;
+S4;
+
+LEXICON S4
++kU[Refl/Mid]:^ku S5;
+S5;
+
+LEXICON S5
++rpU[DirDown]:^rpu S6;
+S6;
+
+LEXICON S6
++raA[Dur]:^raa S7;
+S7;
+
+LEXICON S7
++rkU[Edu]:^rka S8;
+S8;
+
+LEXICON S8
+@P.I.ON@+rI[Pct]:@P.I.ON@^ri S10;
++rI[Pct]:^ra S9;
+S9;
+
+LEXICON S9
++mu[Cis]:^mu S10;
+S10;
+
+LEXICON S10
++YkaA[Prog]:^ykaa S11; 
+S11;
+
+LEXICON S11
+@D.I@+tsi[Fact]:@D.I@^tsi S12;
+S12;
+
+LEXICON S12
++rku[Edu]:^rku S13;
++yku[Intens]:^yku S13;
+S13;
+
+LEXICON S13
++llaa[Lim]:^llaa S14;
+S14;
+
+LEXICON S14
++yaA[Pl]:^yaa S15;
+S15;
+
+LEXICON S15
++pu[Apl]:^pu Vflex;
++mu[Cis]:^mu Subord;
++pa[Apl]:^pa S16;
+S16;
+
+LEXICON S16
++maA[1.Obj]:^maa Oblig;
++maA+ntsik[3.Sbj][1Pl.Inc.Obj]:^mantsik Cond;
++maA+rqa[Pst]+ntsik[3.Sbj][1Pl.Inc.Obj]:^marqantsik #;
++maA+rqu[RecPst]+ntsik[3.Sbj][1Pl.Inc.Obj]:^marquntsik #;
++shu[3.Sbj]+nki[2.Obj]:^shunki NegInterr;
++shu[3.Sbj]+rqu[RecPst]+nki[2.Obj]:^shurqunki NegInterr;
++shu[3.Sbj]+nki[2.Obj]+man[Cond]:^shunkiman NegInterr;
++q[1.Sbj][2.Obj]:^q Cond;
++q[Agt]:^q PossMark;
++q[Hab]:^q NaSlot;
++y[Inf]:^y PossMark; ! L'infinitif peut jouer le rôle de nominalisateur
++y[Inf]:^y Advbz;
+Subord;
+Vflex;
+
+LEXICON Oblig
++na[Nec](N):^na PossMark;
+Interp;
+
+LEXICON Interp
++nki[2.Sbj]:^nki NaSlot;
++nqa[3.Sbj][Fut]:^nqa NaSlot;
++n[3.Sbj]:^n NaSlot;
++rqa[Pst]:^rqa #;
++rqa[Pst]:^rqa FlexPst;
++rqu[RecPst]:^rqu FlexPst;
++q[Hab]:^q #;
++naq[Rpst]:naq #;
+Subord;
+Imp;
+
+LEXICON FlexPst
++q[1.Sbj][2.Obj]:^q Indep;
++yki[2.Sbj]:^yki Indep;
++n[3.Sbj]:^n Indep;
++nki[2.Sbj]:^nki Indep;
+
+
+LEXICON Subord
++pti[Cnv](N):^pti PossMark;
++pti[Cnv]+q[1.Sbj][2.Obj]:^ptiq Indep; ! willaptiqmi "Cuando te avise"
++nqa[Sub](N):^nqa PossMark; ! 'dik' en turco
++r[Cnv](N):^r PossMark;
++shpa[Grd]:^shpa NaSlot; ! En Huaraz y Aija
+Vflex;
+
+LEXICON Vflex
++rqa[Pst]:^rqa VPersPst;
++rqa[Pst][3]:^rqa NegInterr;
++rqu[RecPst]:^rqu VPersPst;
++shqa[Prf](N):^shqa #;
++shqa[Prf](N):^shqa PossMark;
++naq[Rpst]:^naq NaSlot;
++shaq[Fut.1]:^shaq NaSlot;
++nqa[Fut.3]:^nqa NaSlot;
+!@D.YAA@+shun[Fut][1Pl.Inc]:@D.YAA@^shun NaSlot; !Double pluriel impossible
++shun[Fut][1Pl.Inc]:^shun NaSlot;
++shqayki[Fut][1.Sbj][2.Obj]:^shqayki NaSlot;
++shwan[Cond][1Pl.Inc]:^shwan #;
++shway[Cond][1Pl.Inc]:^shway #; ! Variante Llamellín
++q[Hab]:^q #;
+!@P.NA.ON@+na[Nec](N):@P.NA.ON@^na PossMark;
++na[Nec](N):^na PossMark;
+VPers;
+
+LEXICON VPersPst
+[3]+naq[Rpst]:^naq NaSlot; ! On trouve rarement la forme -nnaq
++yki[2]:^yki NaSlot;
++q[1.Sbj][2.Obj]:^q NaSlot;
+VPers;
+
+LEXICON VPers
++ː[1]:^&	Cond;
++nki[2]:^nki Cond;
++n[3]:^n Cond;
++ntsik[2Pl.Inc]:^ntsik Cond;
++n[3]+naq[Rpst]:^nnaq Indep;
+Imp;
+
+LEXICON Cond
++man[Cond]:^man NaSlot;
+NaSlot;
+Causal;
+#;
+
+LEXICON Imp
++y[Imp.2]:^y NaSlot;
++tsun[Imp.3]:^tsun NaSlot;
++shun[Imp.1Pl.Inc]:^shun NaSlot;
+
+
+
+!-------------- POSSESSIVE MARKERS ---------------- !
+LEXICON PossMark
++ː[Poss.1Sg]:^& PlNom;
++ːkuna[Poss.1Pl.Excl]:^&kuna LlaaSlot;
++yki[Poss.2]:^yki PlNom;
++n[Poss.3]:^n PlNom;
++ntsik[Poss.1Pl.Inc]:^ntsik LlaaSlot;
+
+LEXICON PossMarkNum
++ː[Poss.1Sg](Pron.Sets):^& Indep;
++yki[Poss.2](Pron.Sets):^yki Indep;
++n[Poss.3](Pron.Sets):^n Indep;
++ntsik[Poss.1Pl.Inc](Pron.Sets):^ntsik Indep;
+
+LEXICON PlNom
++kuna[Pl]:^kuna LlaaSlot;
+LlaaSlot;
+
+
+LEXICON LlaaSlot
++llaA[Lim]:^llaa Case;
+Case;
+
+
+LEXICON Ctrs
++taq[Ctrs]:^taq Indep;
++taa[Ctrs]:^taa Indep;
++tan[Ctrs]:^tan #;
+#;
+
+LEXICON NaSlot
++na[Acp]:^na Ctrs;
++raq[Inacp]:^raq Indep;
++ran[Inacp]:^ran #;
+Ctrs;
+Indep;
+
+
+LEXICON CaseAdv
++naw[Equ]:^naw NaSlot;
+NaSlot;
+
+LEXICON Causal
++raykur[Csl]:^raykur Indep;
+
+LEXICON Indep
+Topic;
+Evidential;
+NegInterr;
++pis[Coord]:^pis NegInterr; ! à déplacer + éliminer #; dans NegInterr
+#;
+
+LEXICON Topic
++qa[Top]:^qa #;
+#;
+
+LEXICON Evidential
++mi[Asrt]:^mi #;
++shi[Nfh]:^shi #;
++chi[Conjc]:^chi #;
+
+LEXICON NegInterr
++tsu[Neg]:^tsu #;
++ku[Inter]:^ku #;
+#;
+
+LEXICON Emph
++ri[Emp]:^ri #;
+#;
+
+
+!-------------- CASUAL SUFFIXES ------------------- !
+LEXICON Case
++wan[Com]:^wan CaseAdv;
++pita[Abl]:^pita CaseAdv;
++ta[Obj]:^ta CaseAdv;
++chaw[Loc]:^chaw CaseAdv;
++chuu[Loc]:^chuu CaseAdv;
++kama[Ter]:^kama CaseAdv;
++yaq[Ter]:^yaq CaseAdv;
++man[Dat]:^man CaseAdv;
++pa[Gen]:^pa CaseAdv;
++pa[Prol]:^pa CaseAdv;
++paq[Ben]:^paq CaseAdv;
++yan[Dist]:^yan Indep;
++yuq[Orn]:^yuq CaseAdv;
+Ctrs;
+CaseAdv;
+Causal;
+NaSlot;

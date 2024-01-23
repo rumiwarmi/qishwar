@@ -1,6 +1,6 @@
-### qichwa.foma ###
+### qichwa-new.foma ###
 
-read lexc qichwa.lexc
+read lexc qichwa-new.lexc
 define Lexicon;
 
 define C [c h|k|l|l l|m|n|ñ|p|q|r|s|s h|t|t s];
@@ -25,8 +25,13 @@ define FirstPers "&" -> a || a "^" _ ,,
 # rkU, rpU, ku se convierte en rka, rpa, ka delante -tsi / -pu / -mu / -maA
 define Euphony u -> a || "^" [r p | r k | k | y k]  _ "^" (?* "^") [m u | p u | m a | t s i] ;
 
+# El aplicativo -pU se convierte en -pa delante de -tsi, -mu o -maA
+#define EuphonyPu p u -> p a || "^" _ "^" (?* "^") [t s i | m u | m a] ;
+
+
 # La eufonía se aplica también a verbos cuya raíz contiene esos sufijos : qarqu, qarpu, qarku ; yarku, yarqu, yarpu (la lista queda por completar)
 define EuphonyRoot u -> a || [y | q] a [r q | r p | r k ] _ "^" (?* "^") [m u | p u | m a | t s i] ;
+
 
 # Los sufijos -naA, -ykachaA, -kachaA, -paA, -kaA, -raA, -ykaA, -llaA, -yaA et -maA pierden la duración vocálica ante sílabas cerradas
 define VowelShortening a a -> a || "^" [n | y k a c h | k a c h | p | k | r | y k | l l | y | m ] _ "^" closedSyl ;
@@ -53,9 +58,8 @@ define Epenthesis [..] -> n i || [C | Vlong | Semi] _ "^" [n | n t s i k | y k i
 # Evidentials allomorphy #
 #------------------------#
 
-define FinalI i -> 0 || C V "^" [m| s h] _ .#. ;
+define FinalI i (->) 0 || C V "^" [m | s h | c h ] _ .#. ;
 
-define FinalChiHuaylas i (->) 0 || "^" c h _ .#. ;
 
 
 #------------ COMPILATION ---------------#
@@ -66,8 +70,8 @@ define Cleanup "^" -> 0;
 define Grammar  Lexicon	.o.
 				FirstPers .o.
 				Euphony .o.
+				EuphonyPu .o.
 				EuphonyRoot .o.
-				VowelLengthening .o.
 				VowelShortening .o.
 				RootShortening .o.
 				VowelShorteningYaa .o.
@@ -75,7 +79,6 @@ define Grammar  Lexicon	.o.
 				QamQan .o.
 				Epenthesis .o.
 				FinalI .o.
-				FinalChiHuaylas .o.
 				Cleanup;
 
 regex Grammar;

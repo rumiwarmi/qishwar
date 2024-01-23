@@ -1,0 +1,64 @@
+### qichwa-guess.foma ###
+
+define C [b|c h|d|k|l|l l|m|n|ñ|p|q|r|s|s h|t|t s];
+define V [a|i|u];
+define CEsp [b | d | f];
+define VEsp [e | o];
+define Vlong [a a | i i | u u];
+
+define OrthWord [ C* [V+|Vlong] C* C+ [V+ C* | Vlong] ];
+read lexc qichwa-guess.lexc
+substitute defined OrthWord for "^GUESS"
+define Lexicon;
+
+
+define Semi [w|y];
+
+define closedSyl [r q | p t | y k | r k | n k | n m | s h q];
+
+
+define VowelLengthening "&" -> a || a "^" _ ,,
+						"&" -> u || u "^" _ ,,
+						"&" -> i || i "^" _ ,,
+						"&" -> n i i || [Vlong | C | Semi] "^" _ ;
+						
+# rkU, rpU, ku become rka, rpa, ka before -tsi / -pu / -mu / -maA
+define Harmony u -> a || "^" [r p | r k | k]  _ "^" (?* "^") [m u | p u | m a | t s i] ;
+
+define VowelShortening a a -> a || "^" [y|m|r|k|l l] _ "^" [closedSyl | a | q | y .#.] , _ "^" n [.#. | q a | "^"] , y k _ "^" [ [n | q | r] [.#. | "^"] | [closedSyl] ] ,  y _ "^" [n | q] "^" m a n , .#. c h _ "^" [r k | r p ], m _ "^" r [.#. | "^"] ;
+
+# Nota general acerca de ykaa + yaa: ykayaa / ykaaya / ykaayaa son posibles. Falta estudiar el contexto izquierdo pero parece que si yaa puede ser largo, yka resultará corto más a menudo.
+
+# Sufijo pluralizador -yaA : ambas formas existen (chaayaamurqan / chaayamurqan); igual con -ykaa (qallaykamunqa / tumaykaamuu)
+define VowelShorteningYaa a a (->) a || "^" [ y | k | y k] _ "^" [m u  | y a a | m a] ;
+
+define Epenthesis [..] -> n i || [C | Vlong | Semi] _ "^" [n | n t s i k | y k i] ["^" | .#.] ;
+
+define FinalI i -> 0 || C V "^" [m| s h] _ .#. ;
+
+# El sufijo -chuu pierde su duración en final de palabra
+define VowelShorteningChuu	u u -> u || "^" c h _ .#. ;
+
+define FinalChiHuaylas i (->) 0 || "^" c h _ .#. ;
+
+# Non standard spelling
+# define Monopthong a y -> e e ,,
+#			      u y -> i i ,,
+#			      a w -> o o ;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Grammar  Lexicon	.o.
+				Harmony .o.
+				VowelLengthening .o.
+				VowelShortening .o.
+				VowelShorteningYaa .o.
+				Epenthesis .o.
+				FinalI .o.
+				FinalChiHuaylas .o.
+				# Monopthong .o.
+				Cleanup;
+
+regex Grammar;
+
