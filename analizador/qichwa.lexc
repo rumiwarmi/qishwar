@@ -31,23 +31,31 @@ huk	InvarDet;
 ima InvarDet;
 hukllaylla InvarDet;
 hukllaqlla InvarDet;
+el InvarDet;
 la InvarDet;
 las InvarDet;
 
 LEXICON Pron
-llapa PronFlex;
-mayqa PronFlex;
+llapa MayqaDeriv;
+mayqa MayqaDeriv;
+hinantin MayqaDeriv;
 wakin PronFlex;
-pipis PronIndef;
-pikunapis PronIndef;
-imapis PronIndef;
-imakunapis PronIndef;
-mayqanpis PronIndef;
-imaypis PronIndef;
-pi PronInterr;
-ima PronInterr;
-imana PronInterr;
-imayka	PronInterr;
+ayka LlaaSlotPron;
+pi LlaaSlotPron;
+ima LlaaSlotPron;
+imay LlaaSlotPron;
+may LlaaSlotPron;
+maylaya LlaaSlotPron;
+imayka	LlaaSlotPron;
+tsaytsika	LlaaSlotPron;
+mayna LlaaSlotPron;
+imana LlaaSlotPron;
+imanir PronInt;
+!! DEICTIQUES !!
+tsay LlaaSlotPron;
+hay LlaaSlotPron;
+kay LlaaSlotPron;
+tsay AdvDeict;
 
 LEXICON PronReflx
 kiki Reflex;
@@ -72,24 +80,6 @@ nuqantsik Prs;
 
 
 LEXICON Adv
-kaychaw AdvDeict;
-kaychuu AdvDeict;
-tsaychaw AdvDeict;
-tsaychuu AdvDeict;
-kayman AdvDeict;
-tsayman AdvDeict;
-tsaykama AdvDeict;
-tsayyaq AdvDeict;
-tsaypita AdvDeict;
-tsaypa AdvDeict;
-kaynaw AdvDeict;
-taqayllata AdvDeict;
-tsaynaw AdvDeict;
-tsayna Advinf;
-tsayraq Advinf;
-tsaymi AdvInvar;
-tsayshi AdvInvar;
-tsaychi AdvInvar;
 aa Advinf;
 ahalla Advinf;
 allaapa Advinf;
@@ -98,6 +88,7 @@ allinta Advinf;
 alliq Advinf;
 apuraypa Advinf;
 arday Advinf;
+achka Advinf;
 atska Advinf;
 atskaq Advinf;
 aari Advinf;
@@ -113,9 +104,6 @@ haqpi Advinf;
 hawka Advinf;
 hina Advinf;
 hinampi Advinf;
-hinantinta Advinf;
-hinantinpa Advinf;
-hinantinpita Advinf;
 huklaya Advinf;
 huklla Advinf;
 hukllaylla AdvNum;
@@ -128,8 +116,7 @@ itsan Advinf;
 ichikllapa Advinf;
 illaqpita Advinf;
 illu Advinf;
-imanalla Advinf;
-imaychi AdvInvar;
+imanaw ImanawDerivLla;
 kanan Advinf;
 kanqan Advinf;
 kaasi Advinf;
@@ -214,6 +201,7 @@ chunkaq NumPart;
 huk NumCard;
 ishkay NumCard;
 kimsa NumCard;
+kima NumCard;
 kinsa NumCard;
 chusku NumCard;
 pitsqa NumCard;
@@ -222,6 +210,7 @@ suqta NumCard;
 qanchis NumCard;
 pusaq NumCard;
 puwaq NumCard;
+ishqun NumCard;
 isqun NumCard;
 chunka NumCard;
 pachak NumCard;
@@ -263,6 +252,8 @@ asqa Adjinf;
 asqu Adjinf;
 aypa Adjinf;
 berdi Adjinf;
+byudu Adjinf;
+byuda Adjinf;
 chachaq Adjinf;
 chapru Adjinf;
 chawa  Adjinf;
@@ -275,6 +266,8 @@ chisu Adjinf;
 chumaq Adjinf;
 chusu Adjinf;
 desenti	Adjinf;
+enteru Adjinf;
+fasil Adjinf;
 feyu Adjinf;
 fiilu Adjinf;
 haaku Adjinf;
@@ -468,8 +461,8 @@ wiswi Adjinf;
 yana Adjinf;
 yañu Adjinf;
 yashqa Adjinf;
+yulaq Adjinf;
 yuraq Adjinf;
-
 
 LEXICON Noun
 aabas Ninf;
@@ -496,8 +489,9 @@ akurma Ninf;
 aldaba Ninf;
 aleman Ninf;
 alfalfa Ninf;
-alforna Ninf;
+alforha Ninf;
 alichu Ninf;
+alporha Ninf;
 allaapa Ninf;
 allpa Ninf;
 allpa kuru Ninf;
@@ -532,7 +526,6 @@ anka Ninf;
 anka taakuna Ninf;
 ankawshu Ninf;
 anku Ninf;
-ankuy kasha Ninf;
 ankuyshu Ninf;
 anqara Ninf;
 anqu Ninf;
@@ -551,6 +544,7 @@ apaakun Ninf;
 apaakuy Ninf;
 apallimuy Ninf;
 api Ninf;
+apu Ninf;
 aputu Ninf;
 aqcha Ninf;
 aqchallku Ninf;
@@ -584,6 +578,7 @@ ashnu Ninf;
 asukar Ninf;
 aswa Ninf;
 aswana  Ninf;
+asyenda Ninf;
 ataka Ninf;
 ataparay Ninf;
 atapuquy Ninf;
@@ -599,6 +594,7 @@ awashinka Ninf;
 awchi Ninf;
 awila Ninf;
 awilu Ninf;
+awkin Ninf;
 awkis Ninf;
 awqa Ninf;
 awrinsha Ninf;
@@ -609,6 +605,7 @@ ayahacha Ninf;
 ayaq Ninf;
 ayaqshu Ninf;
 aykayka Ninf;
+ayllu Ninf;
 aytsa Ninf;
 ayu Ninf;
 baata Ninf;
@@ -623,6 +620,7 @@ baskon Ninf;
 beeta Ninf;
 bermuta Ninf;
 berruga Ninf;
+bida Ninf;
 bisitaq kuru Ninf;
 bitroola Ninf;
 bolliku Ninf;
@@ -639,6 +637,7 @@ chakwa Ninf;
 chakwas Ninf;
 chakya Ninf;
 chalaa Ninf;
+challwa Ninf;
 chamiku Ninf;
 champa Ninf;
 chani Ninf;
@@ -681,6 +680,7 @@ chirimuya Ninf;
 chiska Ninf;
 chiwa Ninf;
 chiwchi Ninf;
+chuchin Ninf;
 chullqa Ninf;
 chullu Ninf;
 chulluk Ninf;
@@ -701,6 +701,7 @@ chuschu Ninf;
 chusiq Ninf;
 chuspa Ninf;
 chuspi Ninf;
+danzaq Ninf;
 dedu Ninf;
 derecha Ninf;
 domichu Ninf;
@@ -803,8 +804,7 @@ illapa Ninf;
 illaqu Ninf;
 illawa Ninf;
 illawanka Ninf;
-ima Ninf;
-imayka Ninf;
+ichu Ninf;
 imi Ninf;
 imtsik Ninf;
 iñaqu Ninf;
@@ -901,6 +901,7 @@ katsak Ninf;
 katsupi Ninf;
 katu Ninf;
 kawaallu Ninf;
+kawallu Ninf;
 kayakuy Ninf;
 kayshuy Ninf;
 kebiba Ninf;
@@ -1003,6 +1004,7 @@ liqita Ninf;
 litska Ninf;
 llakun Ninf;
 llakwash Ninf;
+llama Ninf;
 llankawasi Ninf;
 llanqi Ninf;
 llantin Ninf;
@@ -1062,6 +1064,7 @@ makisapa Ninf;
 makra Ninf;
 makshu Ninf;
 makwa Ninf;
+mallaqay Ninf;
 mallkash Ninf;
 mallqay Ninf;
 mallqi Ninf;
@@ -1213,6 +1216,7 @@ pacha rurun Ninf;
 pachiilla Ninf;
 pachka Ninf;
 pachpa Ninf;
+padri Ninf;
 pahonal Ninf;
 pahu Ninf;
 pakapaka Ninf;
@@ -1544,6 +1548,7 @@ ratsak Ninf;
 ratu Ninf;
 rayaan Ninf;
 rayan Ninf;
+raymi Ninf;
 remooho Ninf;
 repoollo Ninf;
 retaama Ninf;
@@ -1559,6 +1564,7 @@ rukus Ninf;
 rumi Ninf;
 rumpa-rumpa Ninf;
 rumtu Ninf;
+runa Ninf;
 runku Ninf;
 runqupchu Ninf;
 runtu Ninf;
@@ -1570,6 +1576,7 @@ ruri Ninf;
 ruripa Ninf;
 ruru Ninf;
 ruywaq Ninf;
+sacha Ninf;
 saachi Ninf;
 saaya Ninf;
 saaylliki Ninf;
@@ -2068,6 +2075,8 @@ wiswinchus Ninf;
 witsay Ninf;
 witsu Ninf;
 witu Ninf;
+yachay Ninf;
+yachatsikuq Ninf;
 yaku Ninf;
 yakuuma Ninf;
 yamta Ninf;
@@ -2105,19 +2114,26 @@ julyu	Ninf;
 agosto	Ninf;
 
 LEXICON PropNoun
+atawallpa PNderiv;
 ayhata PNderiv;
 bernardo PNderiv;
 carmelu PNderiv;
 chaqchan PNderiv;
+chikney	PNderiv;
 chikyanta PNderiv;
 chonta PNderiv;
+chontayoq PNderiv;
+cristobal PNderiv;
 damacho PNderiv;
 dolorosa PNderiv;
 enrique PNderiv;
+españa PNderiv;
+felipe PNderiv;
 fortunatu PNderiv;
 gonzález PNderiv;
 guillermu PNderiv;
 hirkaqucha PNderiv;
+huamanga PNderiv;
 hulano PNderiv;
 isidru PNderiv;
 jesús PNderiv;
@@ -2129,12 +2145,15 @@ karwas PNderiv;
 kasma PNderiv;
 kochapampa PNderiv;
 konokocha PNderiv;
+libiaq PNderiv;
 lima PNderiv;
 luis PNderiv;
 luna PNderiv;
 manuel PNderiv;
 markaraa PNderiv;
 max PNderiv;
+maria PNderiv;
+maría PNderiv;
 martín PNderiv;
 mendoza PNderiv;
 moises PNderiv;
@@ -2182,6 +2201,7 @@ ahu VTrDeriv;
 akra VTrDeriv;
 aku VTrDeriv;
 alaatsi VTrDeriv;
+alista VTrDeriv;
 altsa VTrDeriv;
 aldaba VTrDeriv;
 alqusha VTrDeriv;
@@ -2196,6 +2216,7 @@ ani VTrDeriv;
 anka VTrDeriv;
 ankashlla VTrDeriv;
 anku VTrDeriv;
+ankupaa VTrDeriv;
 anqusha VTrDeriv;
 apa VTrDeriv;
 apacha VTrDeriv;
@@ -2218,6 +2239,7 @@ asta VTrDeriv;
 aswaku VTrDeriv;
 aasha VTrDeriv;
 ashi VTrDeriv;
+ashipa VTrDeriv;
 ashlli VTrDeriv;
 ashpi VTrDeriv;
 ashta VTrDeriv;
@@ -2434,6 +2456,7 @@ laqwatyaa VTrDeriv;
 laqya VTrDeriv;
 lashta VTrDeriv;
 latu VTrDeriv;
+leyi VTrDeriv;
 lukya VTrDeriv;
 luqi VTrDeriv;
 luqpi VTrDeriv;
@@ -2570,6 +2593,7 @@ pilta VTrDeriv;
 pillta VTrDeriv;
 pillu VTrDeriv;
 pinqa VTrDeriv;
+piña	VTrDeriv;
 piñatsi VTrDeriv;
 piñapaa VTrDeriv;
 piqtu VTrDeriv;
@@ -2661,6 +2685,7 @@ rawma VTrDeriv;
 remedya VTrDeriv;
 remenda VTrDeriv;
 rikaa VTrDeriv;
+rikaachaaku VTrDeriv;
 rikachaku VTrDeriv;
 rima VTrDeriv;
 rimayku VTrDeriv;
@@ -2889,6 +2914,7 @@ wislla VTrDeriv;
 wishi VTrDeriv;
 wishtu VTrDeriv;
 wiyaa VTrDeriv;
+wiya VTrDeriv;
 yaatsi VTrDeriv;
 yacha VTrDeriv;
 yachapaa VTrDeriv;
@@ -2926,6 +2952,7 @@ ahalla VIntDeriv;
 ahayaa VIntDeriv;
 akchiwsaa VIntDeriv;
 alalaatsiku S5;
+alala VIntDeriv;
 alalaa VIntDeriv;
 alanka VIntDeriv;
 ala VIntDeriv;
@@ -3157,6 +3184,7 @@ patpatyaa VIntDeriv;
 patsaakaa VIntDeriv;
 patsaaku VIntDeriv;
 patsaa VIntDeriv;
+pawa VIntDeriv;
 paya VIntDeriv;
 pelya VIntDeriv;
 pichiilla VIntDeriv;
@@ -3436,17 +3464,19 @@ apenas	AdvInvar;
 apuradu AdvInvar;
 demasyadu Evidential;
 despwes	NaSlot;
-fasil AdvInvar;
+entonsis NaSlot;
 felismente AdvInvar;
 inmedyatamente AdvInvar;
 kasi AdvInvar;
 kisaa Evidential;
 komo AdvInvar; ! podría ser SCONJ
 lomismu AdvInvar;
+mas NaSlot;
 mehor Evidential;
+mejor Evidential;
 nunka AdvInvar;
 poku NaSlot;
-porfin Indep;
+porfin NaSlot;
 serka AdvInvar;
 talbes Topic;
 todabia AdvInvar;
@@ -3536,11 +3566,6 @@ LEXICON PronDeriv
 [PRON.Dem]+yuq[Orn]:yuq Indep;
 [PRON.Dem]+qa[Topic]:^qa #;
 
-LEXICON PronFlex
-[PRON]:0 PossMark;
-
-LEXICON PronIndef
-[PRON.Indef]:0 #;
 
 LEXICON Prs
 [PRON.Prs]:0 LlaaSlot;
@@ -3565,11 +3590,11 @@ LEXICON AdvInvar
 [ADV]:0 #;
 
 LEXICON AdvDeict
-[ADV]:0 NaSlot;
-[ADV]+llaA[Lim]:^lla Evidential;
++na[ADV]:^na Evidential;
+[PRON]+naw[Equ]:^naw LlaaSlot;
 
 LEXICON Advinf
-[ADV]:0 Evidential;
+[ADV]:0 Case;
 
 LEXICON AdpEsp
 [ADP]:0 #;
@@ -3579,13 +3604,21 @@ LEXICON Sconj
 
 LEXICON Cconj
 [CCONJ]:0 #;
+[CCONJ]+qa[Top]:^qa #;
 
 LEXICON Intj
 [INTJ]:0 Emph;
 
 LEXICON Adjinf
-[ADJ]:0 #;
+[ADJ]:0 Evidential;
+[ADJ]+llaA[Lim]:^lla AdjToAdv;
 [ADJ]:0 NounToVerb;
+[ADJ]:0 AdjToAdv;
+
+LEXICON AdjToAdv
++pa[Man](Adv):^pa #;
++ta[Obj](Adv):^ta #;
+#;
 
 !--------------- NOUN INFLECTION ----------------- !
 LEXICON Ninf
@@ -3619,6 +3652,7 @@ LEXICON VIntDeriv
 LEXICON S1
 +tsi[Fact]:^tsi S2;
 +naA[Prosp]:^naa S2;
++naA[Prosp]:^na S2;
 +ykachaA[Disp]:^ykachaa S2;
 +kachaA[Iter]:^kachaa S2;
 S2;
@@ -3630,6 +3664,7 @@ S3;
 
 LEXICON S3
 +kaA[Pass]:^kaa S4;
++kaA[Pass]:^ka S4;
 +nakU[Recp]:^naku S5;
 +nakU[Recp]:^naka S5;
 +raA[Dur]:^raa S4;
@@ -3662,6 +3697,7 @@ S10;
 
 LEXICON S10
 +YkaA[Prog]:^ykaa S11; 
++YkaA[Prog]:^yka S11;
 S11;
 
 LEXICON S11
@@ -3679,6 +3715,7 @@ S14;
 
 LEXICON S14
 +yaA[Pl]:^yaa S15;
++yaA[Pl]:^ya S15;
 S15;
 
 LEXICON S15
@@ -3700,6 +3737,7 @@ LEXICON S16
 +q[Hab]:^q NaSlot;
 +y[Inf]:^y #;
 +y[Inf]:^y PossMark; ! L'infinitif peut jouer le rôle de nominalisateur
++y[Inf]:^y Pred;
 +y[Inf]:^y Advbz;
 Subord;
 Vflex;
@@ -3709,10 +3747,10 @@ LEXICON Oblig
 Interp;
 
 LEXICON Interp
-+nki[2.Sbj]:^nki NaSlot;
-+nqa[3.Sbj][Fut]:^nqa NaSlot;
-+n[3.Sbj]:^n NaSlot;
-+rqa[Pst]:^rqa #;
++nki[2]:^nki NaSlot;
++nqa[3][Fut]:^nqa NaSlot;
++n[3]:^n NaSlot;
++rqa[Pst]:^rqa Evidential;
 +rqa[Pst]:^rqa FlexPst;
 +rqu[RecPst]:^rqu FlexPst;
 +q[Hab]:^q #;
@@ -3791,22 +3829,57 @@ CaseEqu;
 LEXICON Advbz
 +pa[Man](ADV):^pa #;
 
-!----------- A VERIFIER ------!
-LEXICON PronInterr
-[Pron]:0 CasePron;
-
-LEXICON CasePron
-+pa[Prol]:^pa NaSlot;
-+ta[Obj]:^ta NaSlot;
-+paq[Ben]:^paq NaSlot;
-+wan[Com]:^wan NaSlot;
-+naw[Equ]:^naw NaSlot;
-#;
-
 !------------------------------!
 LEXICON LlaaSlot1
 +lla[Lim]:^lla PossMark;
 PossMark;
+
+
+!-------------- PRONOUNS DERIVATION --------------- !
+LEXICON PronFlex
+[PRON]:0 PlNom;
+
+LEXION PronInt
+[PRON.Interr]:0 Ctrs;
+
+LEXICON LlaaSlotPron
+[PRON]+lla[Lim]:^lla CasePron;
+[PRON]:0 CasePron;
+[PRON]:0 #;
+
+LEXICON CasePron
++chaw[Loc]:^chaw EndPron;
++chuu[Loc]:^chuu EndPron;
++kama[Ter]:^kama EndPron;
++yaq[Ter]:^yaq EndPron;
++man[Dat]:^man EndPron;
++pita[Abl]:^pita EndPron;
++wan[Com]:^wan EndPron;
++ta[Obj]:^ta EndPron;
++pa[Gen]:^pa EndPron;
++pa[Prol]:^pa EndPron;
++paq[Ben]:^paq EndPron;
+EndPron;
+
+LEXICON ImanawDerivLla
+[ADV]:0 ImanawDeriv;
+[ADV]+lla[Lim]:^lla ImanawDeriv;
+
+LEXICON ImanawDeriv
++pa[Man]:^pa #;
+Indep;
+
+LEXICON EndPron
++pis(Pron.Indef):^pis #;
++taq(Pron.Interr):^taq #;
++chi[Conjc](Pron.Interr):^chi #;
++raq[Inacp]:^raq #;
++mi[Asrt]:^mi #;
++shi[Nfh]:^shi #;
+#;
+
+LEXICON MayqaDeriv
+[PRON]:0 PossMark;
 
 !-------------- POSSESSIVE MARKERS ---------------- !
 
@@ -3815,7 +3888,8 @@ LEXICON PossMark
 +ːkuna[Poss.1Pl.Excl]:^&kuna LlaaSlot;
 +yki[Poss.2]:^yki PlNom;
 +n[Poss.3]:^n PlNom;
-+ntsik[Poss.1Pl.Inc]:^ntsik LlaaSlot;
++ntsik[Poss.1Pl.Inc]:^ntsik PlNom;
+PlNom;
 
 LEXICON PossMarkNum
 +ː[Poss.1Sg](Pron.Sets):^& Indep;
@@ -3830,7 +3904,8 @@ LlaaSlot;
 ! ------------------------------------------------- !
 
 LEXICON LlaaSlot
-+llaA[Lim]:^llaa Case;
++llaA[Lim]:^lla Case;
++llaA[Lim]:^lla Evidential;
 Case;
 
 !-------------- CASUAL SUFFIXES ------------------- !
@@ -3856,6 +3931,7 @@ LEXICON MotionCases
 +man[Dat]:^man CaseEqu;
 +pita[Abl]:^pita CaseEqu;
 
+
 LEXICON CaseEqu
 +naw[Equ]:^naw NaSlot;
 NaSlot;
@@ -3866,11 +3942,13 @@ LEXICON NaSlot
 +ran[Inacp]:^ran #;
 Ctrs;
 Indep;
+#;
 
 LEXICON Ctrs
 +taq[Ctrs]:^taq Indep;
 +taa[Ctrs]:^taa Indep;
 +tan[Ctrs]:^tan #;
+Indep;
 #;
 
 LEXICON Causal

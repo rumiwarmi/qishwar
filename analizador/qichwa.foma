@@ -11,13 +11,15 @@ define Vlong [a a | i i | u u];
 
 define Semi [w|y];
 
-define closedSyl [r q | r p | p t | y k | r k | n k | n m | s h q | [n | q | r | y | m] [.#. | "^"] ];
+define closedSyl [r q | r p | p t | y k | r k | n k | n m | n q | s h q | t s | [n | q | r | y | m] [.#. | "^"] ];
 
 define FirstPers "&" -> a || a "^" _ ,,
 						"&" -> u || u "^" _ ,,
 						"&" -> i || i "^" _ ,,
 						"&" -> n i i || [Vlong | Semi | C] "^" _ ;
-						
+
+define Evidential [ m i | s h i | c h i];
+
 #----------------#
 # EUPHONIC RULES #
 #----------------#
@@ -32,9 +34,12 @@ define EuphonyPu p u -> p a || "^" _ "^" (?* "^") [t s i | m u | m a] ;
 # La eufonía se aplica también a verbos cuya raíz contiene esos sufijos : qarqu, qarpu, qarku ; yarku, yarqu, yarpu (la lista queda por completar)
 define EuphonyRoot u -> a || [y | q] a [r q | r p | r k ] _ "^" (?* "^") [m u | p u | m a | t s i] ;
 
-
 # Los sufijos -naA, -ykachaA, -kachaA, -paA, -kaA, -raA, -ykaA, -llaA, -yaA et -maA pierden la duración vocálica ante sílabas cerradas
 define VowelShortening a a -> a || "^" [n | y k a c h | k a c h | p | k | r | y k | l l | y | m ] _ "^" closedSyl ;
+
+define Paku a a -> a || "^" p  _ "^" k u ;
+
+define ReducLlaa a a -> a || l l _ "^" [ Evidential | .#. ];
 
 # La reducción vocálica se observa a veces delante de -mu, en general despues de una vocal larga  (shayamu-, chaayamu-, yarqaraykaayamunnam, ...)
 define VowelShorteningYaa a a (->) a || "^" y  _ (?* "^") m u ;
@@ -63,6 +68,11 @@ define Epenthesis [..] -> n i || [C | Vlong | Semi] _ "^" [n | n t s i k | y k i
 
 define FinalI i (->) 0 || C V "^" [m | s h | c h ] _ .#. ;
 
+# Non standard spelling
+
+define Labialisation n (->) m || "^" _ "^" p ;
+
+define Sandhi2  y (->) 0 || i "^" _ k ;
 
 
 #------------ COMPILATION ---------------#
@@ -76,13 +86,17 @@ define Grammar  Lexicon	.o.
 				EuphonyPu .o.
 				EuphonyRoot .o.
 				VowelShortening .o.
+				Paku .o.
 				VowelShorteningYaa .o.
+				ReducLlaa .o.
 				ShorteningShaa .o.
 				RootShortening .o.
 				VowelShorteningChuu .o.
 				QamQan .o.
 				Epenthesis .o.
 				FinalI .o.
+				Labialisation .o.
+				Sandhi2 .o.
 				Cleanup;
 
 regex Grammar;

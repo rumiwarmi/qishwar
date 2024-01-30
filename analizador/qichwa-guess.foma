@@ -14,53 +14,79 @@ define Lexicon;
 
 define Semi [w|y];
 
-define closedSyl [r q | p t | y k | r k | n k | n m | s h q];
+define closedSyl [r q | r p | p t | y k | r k | n k | n m | s h q | t s | [n | q | r | y | m] [.#. | "^"] ];
 
-
-define VowelLengthening "&" -> a || a "^" _ ,,
+define FirstPers "&" -> a || a "^" _ ,,
 						"&" -> u || u "^" _ ,,
 						"&" -> i || i "^" _ ,,
-						"&" -> n i i || [Vlong | C | Semi] "^" _ ;
+						"&" -> n i i || [Vlong | Semi | C] "^" _ ;
 						
-# rkU, rpU, ku become rka, rpa, ka before -tsi / -pu / -mu / -maA
-define Harmony u -> a || "^" [r p | r k | k]  _ "^" (?* "^") [m u | p u | m a | t s i] ;
+#----------------#
+# EUPHONIC RULES #
+#----------------#
 
-define VowelShortening a a -> a || "^" [y|m|r|k|l l] _ "^" [closedSyl | a | q | y .#.] , _ "^" n [.#. | q a | "^"] , y k _ "^" [ [n | q | r] [.#. | "^"] | [closedSyl] ] ,  y _ "^" [n | q] "^" m a n , .#. c h _ "^" [r k | r p ], m _ "^" r [.#. | "^"] ;
+# rkU, rpU, ku se convierte en rka, rpa, ka delante -tsi / -pu / -mu / -maA
+define Euphony u -> a || "^" [r p | r k | k | y k]  _ "^" (?* "^") [m u | p u | m a | t s i] ;
 
-# Nota general acerca de ykaa + yaa: ykayaa / ykaaya / ykaayaa son posibles. Falta estudiar el contexto izquierdo pero parece que si yaa puede ser largo, yka resultará corto más a menudo.
+# El aplicativo -pU se convierte en -pa delante de -tsi, -mu o -maA
+define EuphonyPu p u -> p a || "^" _ "^" (?* "^") [t s i | m u | m a] ;
 
-# Sufijo pluralizador -yaA : ambas formas existen (chaayaamurqan / chaayamurqan); igual con -ykaa (qallaykamunqa / tumaykaamuu)
-define VowelShorteningYaa a a (->) a || "^" [ y | k | y k] _ "^" [m u  | y a a | m a] ;
 
-define Epenthesis [..] -> n i || [C | Vlong | Semi] _ "^" [n | n t s i k | y k i] ["^" | .#.] ;
 
-define FinalI i -> 0 || C V "^" [m| s h] _ .#. ;
+# Los sufijos -naA, -ykachaA, -kachaA, -paA, -kaA, -raA, -ykaA, -llaA, -yaA et -maA pierden la duración vocálica ante sílabas cerradas
 
-# El sufijo -chuu pierde su duración en final de palabra
+define VowelShortening a a -> a || "^" [n | y k a c h | k a c h | p | k | r | y k | l l | y | m ] _ "^" closedSyl ;
+
+define ReducLlaa a a -> a || l l _ "^" [ Evidential | .#. ];
+
+# La reducción vocálica se observa a veces delante de -mu, en general despues de una vocal larga  (shayamu-, chaayamu-, yarqaraykaayamunnam, ...)
+
+define VowelShorteningYaa a a (->) a || "^" y  _ (?* "^") m u ;
+
+
+
+# El sufijo -chuu (variante de -chaw) pierde su duración en final de palabra
+
 define VowelShorteningChuu	u u -> u || "^" c h _ .#. ;
 
-define FinalChiHuaylas i (->) 0 || "^" c h _ .#. ;
+
+
+
+#------------#
+# Epenthesis #
+#------------#
+define Epenthesis [..] -> n i || [C | Vlong | Semi] _ "^" [n | n t s i k | y k i] ["^" | .#.] ;
+
+
+#------------------------#
+# Evidentials allomorphy #
+#------------------------#
+
+define FinalI i (->) 0 || C V "^" [m | s h | c h ] _ .#. ;
+
 
 # Non standard spelling
 
 define Labialisation n (->) m || "^" _ "^" p ;
 
-# define Monopthong a y -> e e ,,
-#			      u y -> i i ,,
-#			      a w -> o o ;
+define Sandhi2  y (->) 0 || i "^" _ k ;
+
 
 # Cleanup: remove morpheme boundaries
 define Cleanup "^" -> 0;
 
 define Grammar  Lexicon	.o.
-				Harmony .o.
-				VowelLengthening .o.
+				FirstPers .o.
+				Euphony .o.
+				EuphonyPu .o.
 				VowelShortening .o.
+				ReducLlaa .o.
 				VowelShorteningYaa .o.
+				VowelShorteningChuu .o.
 				Epenthesis .o.
 				FinalI .o.
-				FinalChiHuaylas .o.
-				# Monopthong .o.
+				Labialisation .o.
+				Sandhi2 .o.
 				Cleanup;
 
 regex Grammar;
