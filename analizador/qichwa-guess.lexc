@@ -1,4 +1,4 @@
-Multichar_Symbols [DET] [PRON.Dem] [PRON] [PRON.Prs] [PRON.Refl] [NUM.Card] [NUM] [NUM.Ptv] [ADV] [ADP] [SCONJ] [CCONJ] [INTJ] [ADJ] [N] [VTr] [VInt] +yaA[Transf](VInt) +taA[Transl](VInt) +tsaA[Transl](VInt) +ntin[Tot] +sapa[Augm] +nnaq[Prv] +tsi[Fact] +naA[Prosp] +ykachaA[Disp] +kachaA[Iter] +paA[Exc] +pu[Apl] +kaA[Pass] +nakU[Recp] +raA[Dur] +kU[Refl/Mid] +rpU[DirDown] +rkU[Edu] +rI[Pct] +mu[Cis] +YkaA[Prog] +yku[Intens] +llaa[Lim] +maA[1.Obj] +maA+ntsik[3.Sbj][1Pl.Inc.Obj] +maA+rqu[RecPst]+ntsik[3.Sbj][1Pl.Inc.Obj] +shu[3.Sbj]+nki[2.Obj] +shu[3.Sbj]+rqu[RecPst]+nki[2.Obj] +shu[3.Sbj]+nki[2.Obj]+man[Cond] +q[1.Sbj][2.Obj] +q[Agt] +q[Hab] +y[Inf] +nki[2.Sbj] +nqa[3.Sbj][Fut] +n[3.Sbj] +rqa[Pst] +rqu[RecPst] +naq[Rpst] +nki[2.Sbj] +pti[Cnv](N) +pti[Cnv]+q[1.Sbj][2.Obj] +nqa[Sub](N) +r[Cnv](N) +shpa[Grd] +shqa[Prf](N) +rqa[Pst][3] +shaq[Fut.1] +nqa[Fut.3] +shun[Fut][1Pl.Inc] +shqayki[Fut][1.Sbj][2.Obj] +shwan[Cond][1Pl.Inc] +shway[Cond][1Pl.Inc] +na[Nec](N) [3]+naq[Rpst] +yki[2] +ː[1] +nki[2] +n[3] +ntsik[2Pl.Inc] +n[3]+naq[Rpst] +y[Imp.2] +tsun[Imp.3] +shun[Imp.1Pl.Inc] +man[Cond] +ː[Poss.1Sg] +ːkuna[Poss.1Pl.Excl] +yki[Poss.2] +n[Poss.3] +ntsik[Poss.1Pl.Inc] +ː[Poss.1Sg](Pron.Sets) +yki[Poss.2](Pron.Sets) +n[Poss.3](Pron.Sets) +ntsik[Poss.1Pl.Inc](Pron.Sets) +kuna[Pl] +llaA[Lim] +wan[Com] +pita[Abl] +ta[Obj] +chaw[Loc] +chuu[Loc] +kama[Ter] +yaq[Ter] +man[Dat] +pa[Gen] +pa[Prol] +paq[Ben] +yan[Dist] +yuq[Orn] +pa[Man](ADV) +taq[Ctrs] +taa[Ctrs] +tan[Ctrs] +na[Acp] +raq[Inacp] +ran[Inacp] +pa[Man]+yan[Dist] +naw[Equ] +pis[Coord] +qa[Top] +mi[Asrt] +shi[Nfh] +chi[Conjc] +tsu[Neg]:^tsu +ku[Inter] +ri[Emp] [ADV]+na[Disc] [ADV]+lla[Lim] [ADV]+taq[Ctrs] [ADV]+ku[Inter] @P.I.ON@ @D.I@
+Multichar_Symbols [DET] [PRON.Dem] [PRON] [PRON.Prs] [PRON.Refl] [NUM.Card] [NUM] [NUM.Ptv] [ADV] [ADP] [SCONJ] [CCONJ] [INTJ] [ADJ] [N] [VTr] [VInt] +yaA[Transf](VInt) +taA[Transl](VInt) +tsaA[Transl](VInt) +ntin[Tot] +sapa[Augm] +nnaq[Prv] +tsi[Fact] +naA[Prosp] +ykachaA[Disp] +kachaA[Iter] +paA[Exc] +pu[Apl] +kaA[Pass] +nakU[Recp] +raA[Dur] +kU[Refl/Mid] +rpU[DirDown] +rkU[Edu] +rI[Pct] +mu[Cis] +YkaA[Prog] +yku[Intens] +llaa[Lim] +maA[1.Obj] +maA+ntsik[3.Sbj][1Pl.Inc.Obj] +maA+rqu[RecPst]+ntsik[3.Sbj][1Pl.Inc.Obj] +shu[3.Sbj]+nki[2.Obj] +shu[3.Sbj]+rqu[RecPst]+nki[2.Obj] +shu[3.Sbj]+nki[2.Obj]+man[Cond] +q[1.Sbj][2.Obj] +q[Agt] +q[Hab] +y[Inf] +nki[2.Sbj] +nqa[3.Sbj][Fut] +n[3.Sbj] +rqa[Pst] +rqu[RecPst] +naq[Rpst] +nki[2.Sbj] +pti[Cnv](N) +pti[Cnv]+q[1.Sbj][2.Obj] +nqa[Sub](N) +r[Cnv](N) +shpa[Grd] +shqa[Prf](N) +rqa[Pst][3] +shaq[Fut.1] +nqa[Fut.3] +shun[Fut][1Pl.Inc] +shqayki[Fut][1.Sbj][2.Obj] +shwan[Cond][1Pl.Inc] +shway[Cond][1Pl.Inc] +na[Nec](N) [3]+naq[Rpst] +yki[2] +ː[1] +nki[2] +n[3] +ntsik[2Pl.Inc] +n[3]+naq[Rpst] +y[Imp.2] +tsun[Imp.3] +shun[Imp.1Pl.Inc] +man[Cond] +ː[Poss.1Sg] +ːkuna[Poss.1Pl.Excl] +yki[Poss.2] +n[Poss.3] +ntsik[Poss.1Pl.Inc] +ː[Poss.1Sg](Pron.Sets) +yki[Poss.2](Pron.Sets) +n[Poss.3](Pron.Sets) +ntsik[Poss.1Pl.Inc](Pron.Sets) +kuna[Pl] +llaA[Lim] +wan[Com] +pita[Abl] +ta[Obj] +chaw[Loc] +chuu[Loc] +kama[Ter] +yaq[Ter] +man[Dat] +pa[Gen] +pa[Prol] +paq[Ben] +yan[Dist] +yuq[Orn] +pa[Man](ADV) +taq[Ctrs] +taa[Ctrs] +tan[Ctrs] +na[Acp] +raq[Inacp] +ran[Inacp] +pa[Man]+yan[Dist] +naw[Equ] +pis[Coord] +qa[Top] +mi[Asrt] +shi[Nfh] +chi[Conjc] +tsu[Neg]:^tsu +ku[Inter] +ri[Emp] [ADV]+na[Disc] [ADV]+lla[Lim] [ADV]+taq[Ctrs] [ADV]+ku[Inter] @P.I.ON@ @D.I@ ^GUESS
 
 LEXICON Root
 Noun ;
@@ -7,7 +7,7 @@ Adj ;
 
 
 LEXICON Noun
-(guessed)^GUESS:0^GUESS Ninf;
+^GUESS Ninf;
 abogadu	Ninf;
 agosto	Ninf;
 ahenti Ninf;
@@ -33,6 +33,7 @@ comunidad Ninf;
 desayunu Ninf;
 destinu	Ninf;
 direktor Ninf;
+disyembre Ninf;
 diya	Ninf;
 dokumentu Ninf;
 ejercitu Ninf;
@@ -55,6 +56,7 @@ hefe	Ninf;
 hilu	Ninf;
 hoben Ninf;
 iglesya	Ninf;
+inlesya	Ninf;
 ingenieru Ninf;
 kadena Ninf;
 kamyoneta Ninf;
@@ -145,7 +147,7 @@ yunta	Ninf;
 
 
 LEXICON V
-(guessed)^GUESS:0^GUESS Vguess;
+^GUESS Vguess;
 abansa	Vguess;
 akusa	Vguess;
 alkila	Vguess;
@@ -193,8 +195,9 @@ trabaha Vguess;
 trata	Vguess;
 
 LEXICON Adj
-(guessed)^GUESS:0^GUESS Adjinf;
+!(guessed)^GUESS:0^GUESS Adjinf;
 enteru Adjinf;
+fwerti Adjinf;
 hoben Adjinf;
 huntu Adjinf;
 kasadu Adjinf;
@@ -297,7 +300,7 @@ S16;
 
 LEXICON S16
 +maA[1.Obj]:^maa Oblig;
-+maA+ntsik[3.Sbj][1Pl.Inc.Obj]:^mantsik Cond;
++mantsik[3.Sbj][1Pl.Inc.Obj]:^mantsik Cond;
 +maA+rqa[Pst]+ntsik[3.Sbj][1Pl.Inc.Obj]:^marqantsik #;
 +maA+rqu[RecPst]+ntsik[3.Sbj][1Pl.Inc.Obj]:^marquntsik #;
 +shu[3.Sbj]+nki[2.Obj]:^shunki NegInterr;
@@ -306,20 +309,21 @@ LEXICON S16
 +q[1.Sbj][2.Obj]:^q Cond;
 +q[Agt]:^q PossMark;
 +q[Hab]:^q NaSlot;
++y[Inf]:^y #;
 +y[Inf]:^y PossMark; ! L'infinitif peut jouer le rôle de nominalisateur
-+y[Inf]:^y Advbz;
++y[Inf]:^y Pred;
 Subord;
 Vflex;
 
 LEXICON Oblig
-+na[Nec](N):^na PossMark;
++na[Pot](N):^na PossMark;
 Interp;
 
 LEXICON Interp
-+nki[2.Sbj]:^nki NaSlot;
-+nqa[3.Sbj][Fut]:^nqa NaSlot;
-+n[3.Sbj]:^n NaSlot;
-+rqa[Pst]:^rqa #;
++nki[2]:^nki NaSlot;
++nqa[3][Fut]:^nqa NaSlot;
++n[3]:^n NaSlot;
++rqa[Pst]:^rqa Evidential;
 +rqa[Pst]:^rqa FlexPst;
 +rqu[RecPst]:^rqu FlexPst;
 +q[Hab]:^q #;
@@ -357,8 +361,8 @@ LEXICON Vflex
 +shwan[Cond][1Pl.Inc]:^shwan #;
 +shway[Cond][1Pl.Inc]:^shway #; ! Variante Llamellín
 +q[Hab]:^q #;
-!@P.NA.ON@+na[Nec](N):@P.NA.ON@^na PossMark;
-+na[Nec](N):^na PossMark;
+!@P.NA.ON@+na[Pot](N):@P.NA.ON@^na PossMark;
++na[Pot](N):^na PossMark;
 VPers;
 
 LEXICON VPersPst
@@ -371,7 +375,7 @@ LEXICON VPers
 +ː[1]:^&	Cond;
 +nki[2]:^nki Cond;
 +n[3]:^n Cond;
-+ntsik[2Pl.Inc]:^ntsik Cond;
++ntsik[1Pl.Inc]:^ntsik Cond;
 +n[3]+naq[Rpst]:^nnaq Indep;
 Imp;
 
@@ -386,38 +390,54 @@ LEXICON Imp
 +tsun[Imp.3]:^tsun NaSlot;
 +shun[Imp.1Pl.Inc]:^shun NaSlot;
 
-
-
 !-------------- POSSESSIVE MARKERS ---------------- !
+
 LEXICON PossMark
 +ː[Poss.1Sg]:^& PlNom;
 +ːkuna[Poss.1Pl.Excl]:^&kuna LlaaSlot;
 +yki[Poss.2]:^yki PlNom;
 +n[Poss.3]:^n PlNom;
-+ntsik[Poss.1Pl.Inc]:^ntsik LlaaSlot;
++ntsik[Poss.1Pl.Inc]:^ntsik PlNom;
 PlNom;
-
-LEXICON PossMarkNum
-+ː[Poss.1Sg](Pron.Sets):^& Indep;
-+yki[Poss.2](Pron.Sets):^yki Indep;
-+n[Poss.3](Pron.Sets):^n Indep;
-+ntsik[Poss.1Pl.Inc](Pron.Sets):^ntsik Indep;
 
 LEXICON PlNom
 +kuna[Pl]:^kuna LlaaSlot;
 LlaaSlot;
 
+! ------------------------------------------------- !
 
 LEXICON LlaaSlot
-+llaA[Lim]:^llaa Case;
++lla[Lim]:^lla Case;
++lla[Lim]:^lla Evidential;
 Case;
 
+!-------------- CASUAL SUFFIXES ------------------- !
+LEXICON Case
+MotionCases;
++wan[Com]:^wan CaseEqu;
++ta[Obj]:^ta CaseEqu;
++pa[Gen]:^pa CaseEqu;
++pa[Man]:^pa CaseEqu;
++pa[Prol]:^pa CaseEqu;
++paq[Ben]:^paq CaseEqu;
++yan[Dist]:^yan Indep;
+Ctrs;
+CaseEqu;
+Causal;
+NaSlot;
 
-LEXICON Ctrs
-+taq[Ctrs]:^taq Indep;
-+taa[Ctrs]:^taa Indep;
-+tan[Ctrs]:^tan #;
-#;
+LEXICON MotionCases
++chaw[Loc]:^chaw CaseEqu;
++chuu[Loc]:^chuu CaseEqu;
++kama[Ter]:^kama CaseEqu;
++yaq[Ter]:^yaq CaseEqu;
++man[Dat]:^man CaseEqu;
++pita[Abl]:^pita CaseEqu;
++piq[Abl]:^piq CaseEqu;
+
+LEXICON CaseEqu
++naw[Equ]:^naw NaSlot;
+NaSlot;
 
 LEXICON NaSlot
 +na[Acp]:^na Ctrs;
@@ -425,15 +445,19 @@ LEXICON NaSlot
 +ran[Inacp]:^ran #;
 Ctrs;
 Indep;
+#;
 
-
-LEXICON CaseAdv
-+naw[Equ]:^naw NaSlot;
-NaSlot;
+LEXICON Ctrs
++taq[Ctrs]:^taq Indep;
++taa[Ctrs]:^taa Indep;
++tan[Ctrs]:^tan #;
+Indep;
+#;
 
 LEXICON Causal
 +raykur[Csl]:^raykur Indep;
 
+!------------ INDEPENDANT SUFFIXES ----------------- !
 LEXICON Indep
 Topic;
 Evidential;
@@ -449,6 +473,8 @@ LEXICON Evidential
 +mi[Asrt]:^mi #;
 +shi[Nfh]:^shi #;
 +chi[Conjc]:^chi #;
+Emph;
+#;
 
 LEXICON NegInterr
 +tsu[Neg]:^tsu #;
@@ -458,25 +484,3 @@ LEXICON NegInterr
 LEXICON Emph
 +ri[Emp]:^ri #;
 #;
-
-
-!-------------- CASUAL SUFFIXES ------------------- !
-LEXICON Case
-+wan[Com]:^wan CaseAdv;
-+pita[Abl]:^pita CaseAdv;
-+ta[Obj]:^ta CaseAdv;
-+chaw[Loc]:^chaw CaseAdv;
-+chuu[Loc]:^chuu CaseAdv;
-+kama[Ter]:^kama CaseAdv;
-+yaq[Ter]:^yaq CaseAdv;
-+man[Dat]:^man CaseAdv;
-+pa[Gen]:^pa CaseAdv;
-+pa[Man]:^pa CaseAdv;
-+pa[Prol]:^pa CaseAdv;
-+paq[Ben]:^paq CaseAdv;
-+yan[Dist]:^yan Indep;
-+yuq[Orn]:^yuq CaseAdv;
-Ctrs;
-CaseAdv;
-Causal;
-NaSlot;

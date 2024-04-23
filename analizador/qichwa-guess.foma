@@ -1,18 +1,17 @@
 ### qichwa-guess.foma ###
 
-define C [b|c h|d|k|l|l l|m|n|ñ|p|q|r|s|s h|t|t s];
-define V [a|i|u];
+define C [b | c h | d | k | l | l l | m | n | ñ | p | q | r | s | s h | t |t s];
+define V [a | i | u];
 define CEsp [b | d | f];
 define VEsp [e | o];
 define Vlong [a a | i i | u u];
+define Semi [w|y];
 
-define OrthWord [ C* [V+|Vlong] C* C+ [V+ C* | Vlong] ];
+define OrthWord [ [C|Semi] V [C|Semi] V]; ![ C* [V+|Vlong] C* C+ [V+ C* | Vlong] ];
 read lexc qichwa-guess.lexc
 substitute defined OrthWord for "^GUESS"
 define Lexicon;
 
-
-define Semi [w|y];
 
 define closedSyl [r q | r p | p t | y k | r k | n k | n m | s h q | t s | [n | q | r | y | m] [.#. | "^"] ];
 
@@ -38,11 +37,6 @@ define EuphonyPu p u -> p a || "^" _ "^" (?* "^") [t s i | m u | m a] ;
 define VowelShortening a a -> a || "^" [n | y k a c h | k a c h | p | k | r | y k | l l | y | m ] _ "^" closedSyl ;
 
 define ReducLlaa a a -> a || l l _ "^" [ Evidential | .#. ];
-
-# La reducción vocálica se observa a veces delante de -mu, en general despues de una vocal larga  (shayamu-, chaayamu-, yarqaraykaayamunnam, ...)
-
-define VowelShorteningYaa a a (->) a || "^" y  _ (?* "^") m u ;
-
 
 
 # El sufijo -chuu (variante de -chaw) pierde su duración en final de palabra
@@ -76,12 +70,11 @@ define Sandhi2  y (->) 0 || i "^" _ k ;
 define Cleanup "^" -> 0;
 
 define Grammar  Lexicon	.o.
-				FirstPers .o.
+				!FirstPers .o.
 				Euphony .o.
 				EuphonyPu .o.
 				VowelShortening .o.
 				ReducLlaa .o.
-				VowelShorteningYaa .o.
 				VowelShorteningChuu .o.
 				Epenthesis .o.
 				FinalI .o.
