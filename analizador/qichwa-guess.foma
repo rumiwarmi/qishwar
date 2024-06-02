@@ -16,9 +16,9 @@ define Lexicon;
 define closedSyl [r q | r p | p t | y k | r k | n k | n m | s h q | t s | [n | q | r | y | m] [.#. | "^"] ];
 
 define FirstPers "&" -> a || a "^" _ ,,
-						"&" -> u || u "^" _ ,,
-						"&" -> i || i "^" _ ,,
-						"&" -> n i i || [Vlong | Semi | C] "^" _ ;
+				 "&" -> u || u "^" _ ,,
+				 "&" -> i || i "^" _ ,,
+				 "&" -> n i i || [Vlong | Semi | C] "^" _ ;
 						
 #----------------#
 # EUPHONIC RULES #
@@ -70,7 +70,7 @@ define Sandhi2  y (->) 0 || i "^" _ k ;
 define Cleanup "^" -> 0;
 
 define Grammar  Lexicon	.o.
-				!FirstPers .o.
+				FirstPers .o.
 				Euphony .o.
 				EuphonyPu .o.
 				VowelShortening .o.

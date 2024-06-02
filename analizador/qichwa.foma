@@ -72,7 +72,7 @@ define FinalI i (->) 0 || C V "^" [m | s h | c h ] _ .#. ;
 
 define Labialisation n (->) m || "^" _ "^" p ;
 
-define Sandhi2  y (->) 0 || i "^" _ k ;
+define Sandhi2  y (->) 0 || i "^" _ [ k | "^" t ] ;
 
 
 #------------ COMPILATION ---------------#

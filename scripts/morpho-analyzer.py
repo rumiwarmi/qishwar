@@ -62,12 +62,14 @@ with open(param[1], 'r', newline='') as f:
 		s = sentence.lower()
 		s = s.replace('  ', ' ')
 		tokens = s.split(' ')
+		tokens = [t for t in tokens if t != '']
 
 		# Analyse morpho
 		for tok in tokens:
 			nb_toks += 1
 			tok = tok.rstrip('\n')
-
+			
+			# Token pas encore analysé
 			if tok not in analysis:
 				nb_formes += 1
 
@@ -75,6 +77,7 @@ with open(param[1], 'r', newline='') as f:
 					tok_analyse = tok + '[Num]'
 				else:
 					tok_analyse = runFoma("qwh.foma", tok)
+					tok_analyse = list(set(tok_analyse))
 					if len(tok_analyse) > 1:
 						nb_ambiguites += 1
 						ambigu.append(tok_analyse)
@@ -98,7 +101,12 @@ with open(param[1], 'r', newline='') as f:
 							ambigu.append(tok_analyse)
 
 				analysis[tok] = tok_analyse
-
+			else:
+				if '[UNK]' in analysis[tok][0]:
+					nb_failed += 1
+					failed_analysis.append(tok)
+				
+			
 			tagged_sent.append(analysis[tok])
 
 		sentwriter.writerow([sent_qwh, tagged_sent, sent_spa])
@@ -112,11 +120,11 @@ with open(param[1], 'r', newline='') as f:
 	#with open("results.json", "w") as output:
 	#	json.dump(analysis, output, indent=3, sort_keys=True)
 
-	with open("corpus/failed_analysis.txt", "w") as err_out:
+	with open("failed_analysis.txt", "w") as err_out:
 		for tok in failed_analysis:
 			err_out.write(tok + '\n')
 
-	with open("corpus/ambiguites.txt", "w") as ambig_out:
+	with open("ambiguites.txt", "w") as ambig_out:
 		for amb in ambigu:
 			for a in amb:
 				ambig_out.write(a + '\t')

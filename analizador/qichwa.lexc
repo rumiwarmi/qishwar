@@ -1,4 +1,4 @@
-Multichar_Symbols [DET] [PRON.Dem] [PRON] [PRON.Prs] [PRON.Refl] [NUM.Card] [NUM] [NUM.Ptv] [ADV] [ADP] [SCONJ] [CCONJ] [INTJ] [ADJ] [N] [VTr] [VInt] +yaA[Transf](VInt) +taA[Transl](VInt) +tsaA[Transl](VInt) +ntin[Tot] +sapa[Augm] +nnaq[Prv] +tsi[Fact] +naA[Prosp] +ykachaA[Disp] +kachaA[Iter] +paA[Exc] +pu[Apl] +kaA[Pass] +nakU[Recp] +raA[Dur] +kU[Refl/Mid] +rpU[DirDown] +rkU[Edu] +rI[Pct] +mu[Cis] +YkaA[Prog] +yku[Intens] +lla[Lim] +maA[1.Obj] +maA+ntsik[3.Sbj][1Pl.Inc.Obj] +maA+rqu[RecPst]+ntsik[3.Sbj][1Pl.Inc.Obj] +shu[3.Sbj]+nki[2.Obj] +shu[3.Sbj]+rqu[RecPst]+nki[2.Obj] +shu[3.Sbj]+nki[2.Obj]+man[Cond] +q[1.Sbj][2.Obj] +q[Agt] +q[Hab] +y[Inf] +nki[2.Sbj] +nqa[3.Sbj][Fut] +n[3.Sbj] +rqa[Pst] +rqu[RecPst] +naq[Rpst] +nki[2.Sbj] +pti[Cnv](N) +pti[Cnv]+q[1.Sbj][2.Obj] +nqa[Sub](N) +r[Cnv](N) +shpa[Grd] +shqa[Prf](N) +rqa[Pst][3] +shaq[Fut.1] +nqa[Fut.3] +shun[Fut][1Pl.Inc] +shqayki[Fut][1.Sbj][2.Obj] +shwan[Cond][1Pl.Inc] +shway[Cond][1Pl.Inc] +na[Pot](N) [3]+naq[Rpst] +yki[2] +ː[1] +nki[2] +n[3] +ntsik[1Pl.Inc] +n[3]+naq[Rpst] +y[Imp.2] +tsun[Imp.3] +shun[Imp.1Pl.Inc] +man[Cond] +ː[Poss.1Sg] +ːkuna[Poss.1Pl.Excl] +yki[Poss.2] +n[Poss.3] +ntsik[Poss.1Pl.Inc] +ː[Poss.1Sg](Pron.Sets) +yki[Poss.2](Pron.Sets) +n[Poss.3](Pron.Sets) +ntsik[Poss.1Pl.Inc](Pron.Sets) +kuna[Pl] +llaA[Lim] +wan[Com] +pita[Abl] +piq[Abl] +ta[Obj] +chaw[Loc] +chuu[Loc] +kama[Ter] +yaq[Ter] +man[Dat] +pa[Gen] +pa[Prol] +paq[Ben] +yan[Dist] +yuq[Orn] +pa[Man](ADV) +taq[Ctrs] +taa[Ctrs] +tan[Ctrs] +na[Acp] +raq[Inacp] +ran[Inacp] +pa[Man]+yan[Dist] +naw[Equ] +pis[Coord] +qa[Top] +mi[Asrt] +shi[Nfh] +chi[Conjc] +tsu[Neg]:^tsu +ku[Inter] +ri[Emp] [ADV]+na[Disc] [ADV]+lla[Lim] [ADV]+taq[Ctrs] [ADV]+ku[Inter] @P.I.ON@ @D.I@
+Multichar_Symbols [DET] [PRON.Dem] [PRON] [PRON.Prs] [PRON.Refl] [NUM.Card] [NUM] [NUM.Ptv] [ADV] [ADP] [SCONJ] [CCONJ] [INTJ] [ADJ] [N] [VTr] [VInt] +yaA[Transf](VInt) +taA[Transl](VInt) +tsaA[Transl](VInt) +ntin[Tot] +sapa[Augm] +nnaq[Prv] +tsi[Caus] +naA[Prosp] +ykachaA[Disp] +kachaA[Iter] +paA[Exc] +pu[Apl] +kaA[Pass] +nakU[Recp] +raA[Dur] +kU[Refl/Mid] +rpU[DirDown] +rkU[Edu] +rI[Pct] +mu[Cis] +YkaA[Prog] +yku[Intens] +lla[Lim] +maA[1.Obj] +maA+ntsik[3.Sbj][1Pl.Inc.Obj] +maA+rqu[RecPst]+ntsik[3.Sbj][1Pl.Inc.Obj] +shu[3.Sbj]+nki[2.Obj] +shu[3.Sbj]+rqu[RecPst]+nki[2.Obj] +shu[3.Sbj]+nki[2.Obj]+man[Cond] +q[1.Sbj][2.Obj] +q[Agt] +q[Hab] +y[Inf] +nki[2.Sbj] +nqa[3.Sbj][Fut] +n[3.Sbj] +rqa[Pst] +rqu[RecPst] +naq[Rpst] +nki[2.Sbj] +pti[Cnv](N) +pti[Cnv]+q[1.Sbj][2.Obj] +nqa[Sub](N) +r[Cnv](N) +shpa[Grd] +shqa[Prf](N) +rqa[Pst][3] +shaq[Fut.1] +nqa[Fut.3] +shun[Fut][1Pl.Inc] +shqayki[Fut][1.Sbj][2.Obj] +shwan[Cond][1Pl.Inc] +shway[Cond][1Pl.Inc] +na[Pot](N) [3]+naq[Rpst] +yki[2] +ː[1] +nki[2] +n[3] +ntsik[1Pl.Inc] +n[3]+naq[Rpst] +y[Imp.2] +tsun[Imp.3] +shun[Imp.1Pl.Inc] +man[Cond] +ː[Poss.1Sg] +ːkuna[Poss.1Pl.Excl] +yki[Poss.2] +n[Poss.3] +ntsik[Poss.1Pl.Inc] +ː[Poss.1Sg](Pron.Sets) +yki[Poss.2](Pron.Sets) +n[Poss.3](Pron.Sets) +ntsik[Poss.1Pl.Inc](Pron.Sets) +kuna[Pl] +llaA[Lim] +wan[Com] +pita[Abl] +piq[Abl] +ta[Obj] +chaw[Loc] +chuu[Loc] +kama[Ter] +yaq[Ter] +man[Dat] +pa[Gen] +pa[Prol] +paq[Ben] +yan[Dist] +yuq[Orn] +pa[Man](ADV) +taq[Ctrs] +taa[Ctrs] +tan[Ctrs] +na[Acp] +raq[Inacp] +ran[Inacp] +pa[Man]+yan[Dist] +naw[Equ] +pis[Coord] +qa[Top] +mi[Asrt] +shi[Nfh] +chi[Conjc] +tsu[Neg]:^tsu +ku[Inter] +ri[Emp] [ADV]+na[Disc] [ADV]+lla[Lim] [ADV]+taq[Ctrs] [ADV]+ku[Inter] @P.I.ON@ @D.I@
 
 LEXICON Root
 Adv ;
@@ -38,6 +38,7 @@ hukllaqlla InvarDet;
 el InvarDet;
 la InvarDet;
 las InvarDet;
+los InvarDet;
 
 LEXICON Pron
 llapa MayqaDeriv;
@@ -165,6 +166,8 @@ shaypa Advinf;
 taqaylla Advinf;
 taqayllata Advinf;
 tempranu Advinf;
+tsayran Advinf;
+tsaypin Advinf;
 tuta Advinf;
 tutay Advinf;
 upalla Advinf;
@@ -2990,6 +2993,7 @@ aqaayaa VIntDeriv;
 aqtu VIntDeriv;
 aqyaku VIntDeriv;
 aqya VIntDeriv;
+arwa VIntDeriv;
 asi VIntDeriv;
 asqa VIntDeriv;
 asquraa VIntDeriv;
@@ -3499,10 +3503,12 @@ nunka AdvInvar;
 poku AdvNaSlot;
 porfin AdvNaSlot;
 serka AdvInvar;
+sikyera AdvInvar;
 talbes AdvNaSlot;
 todabia AdvInvar;
 unikamente AdvInvar;
 sellaama AdvNaSlot;
+sellama AdvNaSlot;
 syempri AdvInvar;
 
 LEXICON Adp
@@ -3619,7 +3625,7 @@ LEXICON AdvDeict
 
 
 LEXICON Advinf
-[ADV]:0 Case;
+[ADV]:0 LlaaSlot;
 
 LEXICON AdvNaSlot
 [ADV]:0 NaSlot;
@@ -3678,7 +3684,7 @@ LEXICON VIntDeriv
 [VInt]: S1;
 
 LEXICON S1
-+tsi[Fact]:^tsi S2;
++tsi[Caus]:^tsi S2;
 +naA[Prosp]:^naa S2;
 +naA[Prosp]:^na S2;
 +ykachaA[Disp]:^ykachaa S2;
@@ -3729,7 +3735,7 @@ LEXICON S10
 S11;
 
 LEXICON S11
-@D.I@+tsi[Fact]:@D.I@^tsi S12;
+@D.I@+tsi[Caus]:@D.I@^tsi S12;
 S12;
 
 LEXICON S12
@@ -3789,8 +3795,8 @@ Imp;
 LEXICON FlexPst
 +q[1.Sbj][2.Obj]:^q Indep;
 +yki[2.Sbj]:^yki Indep;
-+n[3.Sbj]:^n Indep;
-+nki[2.Sbj]:^nki Indep;
++n[3]:^n Indep;
++nki[2]:^nki Indep;
 
 
 LEXICON Subord
@@ -3897,7 +3903,7 @@ LEXICON ImanawDerivLla
 
 LEXICON ImanawDeriv
 +pa[Man]:^pa #;
-Indep;
+EndPron;
 
 LEXICON NaPron
 +na[Acp]:^na EndPron;

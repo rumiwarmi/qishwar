@@ -20210,10 +20210,7 @@ P.e. Pedruman qaqaashaq Me pondré al lado de Pedro</field>
     <field name="trad">pájaro carpintero.</field>
     <field name="xref">qiru takaq</field>
     <field name="xref">karpinteru pishqu</field>
-    <field name="xref">akaka. (El únitso pájaro tsarpintero que he observado en la sierra de Antsash</field>
-    <field name="xref">aparte del terrestre akaka</field>
-    <field name="xref">es Veniliornis oleaginus; prob. hay también Chrysoptilus atritsollis</field>
-    <field name="xref">y quizás otros tsuya distributsión geográfitsa no ha sido determinada tson exatstitud)</field>
+    <field name="xref">akaka. (El único pájaro carpintero que he observado en la sierra de Ancash aparte del terrestre akaka es Veniliornis oleaginus; prob. hay también Chrysoptilus atricollis y quizás otros cuya distribución geográfica no ha sido determinada con exactitud)</field>
     <field name="lang">qwh</field>
   </doc>
   <doc>
@@ -21457,7 +21454,13 @@ quñuq HLS/AR Adj tibio</field>
     <field name="entry">rantin</field>
     <field name="lecte">HLS*/AR</field>
     <field name="pos">N</field>
-    <field name="trad">reciprocación (en el préstamo): la devolución de algo prestado, sea la misma cose o servicio u otro de semejante valor; suele agregarse un poco más como interés.P.e. yanapamay uryar rantimpaqAyúdame en el trabajo para que yo te ayude despuésrantinllam kallanqaHabrá reciprocación (trad. lit.)papata prestamay rantimpaqPréstame papas (para que luego te devuelva igual)</field>
+    <field name="trad">reciprocación (en el préstamo): la devolución de algo prestado, sea la misma cosa o servicio u otro de semejante valor; suele agregarse un poco más como interés.</field>
+    <field name="example">P.e. yanapamay uryar rantimpaq</field>
+    <field name="example_trad">Ayúdame en el trabajo para que yo te ayude después</field>
+    <field name="example">Rantinllam kallanqa</field>
+    <field name="example_trad">Habrá reciprocación (trad. lit.)</field>
+    <field name="example">Papata prestamay rantimpaq</field>
+    <field name="example_trad">Préstame papas (para que luego te devuelva igual)</field>
     <field name="lang">qwh</field>
   </doc>
   <doc>
@@ -21974,8 +21977,10 @@ quñuq HLS/AR Adj tibio</field>
     <field name="id">PARpol-2502</field>
     <field name="entry">rikuq</field>
     <field name="lecte">HLS/AR</field>
-    <field name="pos">N(siempre modificado por otro N)</field>
-    <field name="trad">similitud, parecido, lo que se parece a -.P.e. mamaanin rikuqmiSe parece a su mamá</field>
+    <field name="pos">N (siempre modificado por otro N)</field>
+    <field name="trad">similitud, parecido, lo que se parece a -.</field>
+    <field name="example">Mamaanin rikuqmi.</field>
+    <field name="example_trad">‘Se parece a su mamá.’</field>
     <field name="xref">niraq</field>
     <field name="lang">qwh</field>
   </doc>
@@ -30889,8 +30894,8 @@ P.e. warmi wamra niña, muchacha preadolescente</field>
     <field name="id">PARpol-3522</field>
     <field name="entry">wiraqutsa</field>
     <field name="lecte">AR</field>
-    <field name="pos"/>
-    <field name="trad">equivale a wiraqca del HLS</field>
+    <field name="pos">N</field>
+    <field name="trad">equivale a wiraqtsa del quechua de Huaylas y Huaraz</field>
     <field name="lang">qwh</field>
   </doc>
   <doc>
