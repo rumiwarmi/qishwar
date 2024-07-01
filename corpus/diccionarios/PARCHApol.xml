@@ -1,0 +1,1162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<add>
+  <doc>
+    <field name="id">PARCHApol-0</field>
+    <field name="entry">abaanu</field>
+    <field name="etym">(del esp. habano)</field>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Marrón claro (del poncho teñido con hojas de nogal). Color canela.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-1</field>
+    <field name="entry">atsikyay₁</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Alumbrar, iluminar.</field>
+    <field name="xref">atski</field>
+    <field name="xref">aktsi</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-2</field>
+    <field name="entry">atsikyay₂</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Amanecer, alborear.</field>
+    <field name="xref">atsikyan</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-3</field>
+    <field name="entry">atska</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">adv.</field>
+    <field name="trad">Mucho(s), mucha(s). Para cosas, animales y personas.</field>
+    <field name="xref">atskaq</field>
+    <field name="xref">shuyni</field>
+    <field name="xref">maytsika</field>
+    <field name="xref">maychika</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-4</field>
+    <field name="entry">atskaq</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">adv. c.</field>
+    <field name="trad">Mucho(s), mucha(s), sólo para personas.</field>
+    <field name="xref">atska</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-5</field>
+    <field name="entry">atski</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Luz.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-6</field>
+    <field name="entry">atskiy</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Alumbrar.</field>
+    <field name="xref">atsikyas</field>
+    <field name="xref">atsikyan</field>
+    <field name="xref">atsikyay</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-7</field>
+    <field name="entry">achachaw</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">interj.</field>
+    <field name="trad">¡Qué pena!, ¡Qué dolor!. ¡Qué calor!, ¡Qué caliente!</field>
+    <field name="xref">ananaw</field>
+    <field name="xref">anaanaw</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-8</field>
+    <field name="entry">achachii</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">interj.</field>
+    <field name="trad">(Exclamación de susto)</field>
+    <field name="xref">achichii</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-9</field>
+    <field name="entry">achakawka</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="xref">achaku</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-10</field>
+    <field name="entry">achaku</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Muca, zarigüeya.</field>
+    <field name="xref">paklla</field>
+    <field name="xref">chanku</field>
+    <field name="xref">qarachupa</field>
+    <field name="xref">achakawka</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-11</field>
+    <field name="entry">achallaaw</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">interj.</field>
+    <field name="trad">¡Qué lindo!, ¡Qué hermoso!</field>
+    <field name="xref">añañaw</field>
+    <field name="xref">añallaw</field>
+    <field name="xref">añañallaaw</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-12</field>
+    <field name="entry">achallma</field>
+    <field name="etym"/>
+    <field name="lecte">SIH</field>
+    <field name="pos">s.</field>
+    <field name="trad">Pequeña plataforma de madera y fibra que se cuelga del techo de la cocina, para almacenar alimentos.</field>
+    <field name="xref">wayrinka</field>
+    <field name="xref">wayuntsa</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-13</field>
+    <field name="entry">achapushku</field>
+    <field name="etym"/>
+    <field name="lecte">POM</field>
+    <field name="pos">s.</field>
+    <field name="trad">Var. de frijol.</field>
+    <field name="xref">ichapushku</field>
+    <field name="xref">pushku.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-14</field>
+    <field name="entry">acharaa</field>
+    <field name="etym"/>
+    <field name="lecte">AR</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Desperdiciar el tiempo, ser perezoso.</field>
+    <field name="xref">qelaakuy</field>
+    <field name="xref">ancharay</field>
+    <field name="xref">ancharan.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-15</field>
+    <field name="entry">achaq</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Caliente.</field>
+    <field name="xref">rupaq.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-16</field>
+    <field name="entry">achay</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">Intr.</field>
+    <field name="trad">Hacer calor.</field>
+    <field name="xref">aachachaan</field>
+    <field name="xref">achan.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-17</field>
+    <field name="entry">achayrapa</field>
+    <field name="etym"/>
+    <field name="lecte">AR</field>
+    <field name="pos">s.</field>
+    <field name="trad">Lluvia mientras hace sol.</field>
+    <field name="xref">achaychirapa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-18</field>
+    <field name="entry">achikay</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Brujo, enano, el que devora a sus hijos, el odioso, personaje mitológico.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-19</field>
+    <field name="entry">achira</field>
+    <field name="etym"/>
+    <field name="lecte">H,HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Planta cuyo tallo se emplea para envol­ver tamales; para ponerlo dentro del sombrero y evitar el dolor de cabeza en tiempo de calor.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-20</field>
+    <field name="entry">achis</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Planta (cereal) con semillas comestibles, una variedad de quinua (colorada).</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-21</field>
+    <field name="entry">achkas</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">s.</field>
+    <field name="trad">Cordero (hasta aprox. 4 meses de edad).</field>
+    <field name="xref">ashkash</field>
+    <field name="xref">washki.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-22</field>
+    <field name="entry">achkay</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR</field>
+    <field name="pos">s.</field>
+    <field name="trad">Var. de achikay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-23</field>
+    <field name="entry">achkuy</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Agarrar o recoger con ambas manos.</field>
+    <field name="xref">tsari</field>
+    <field name="xref">purashta</field>
+    <field name="xref">kamaa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-24</field>
+    <field name="entry">achoote</field>
+    <field name="etym">(del esp. achiote).</field>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">(condimento).</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-25</field>
+    <field name="entry">achpay</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Trepar, subir (por ej. un tronco o poste que no tiene ramas para agarrarse), escalar una pared, un cerro.</field>
+    <field name="xref">lloqay</field>
+    <field name="xref">witsay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-26</field>
+    <field name="entry">achu</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">s.</field>
+    <field name="trad">Paja menuda, palitos.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-27</field>
+    <field name="entry">achuy</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Recoger leña o paja, segar trigo.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-28</field>
+    <field name="entry">achyaa</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">adv. af.</field>
+    <field name="trad">Sí, por supuesto, cómo no.</field>
+    <field name="xref">awmi.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-29</field>
+    <field name="entry">achyaari</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">interj.</field>
+    <field name="trad">¡Sí, pues!</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-30</field>
+    <field name="entry">afweetay</field>
+    <field name="etym">(del esp. afeitar).</field>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Cf. ahweetay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-31</field>
+    <field name="entry">aha</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Difícil.</field>
+    <field name="xref">sasa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-32</field>
+    <field name="entry">ahaha</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Risa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-33</field>
+    <field name="entry">ahahay</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Reírse.</field>
+    <field name="xref">asiy.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-34</field>
+    <field name="entry">ahalla</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Reírse.</field>
+    <field name="xref">asiy.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-35</field>
+    <field name="entry">ahalla</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">adv. m.</field>
+    <field name="trad">Rápido.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-36</field>
+    <field name="entry">ahash</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Estar molesto.</field>
+    <field name="xref">ahay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-37</field>
+    <field name="entry">ahay</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Molestar, estar molesto, reprender.</field>
+    <field name="xref">arpiñapaay</field>
+    <field name="xref">ahash.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-38</field>
+    <field name="entry">ahayay</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Aburrirse.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-39</field>
+    <field name="entry">ahaa</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">interj.</field>
+    <field name="trad">¡Sí!</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-40</field>
+    <field name="entry">ahaan</field>
+    <field name="etym"/>
+    <field name="lecte">HS</field>
+    <field name="pos">interj.</field>
+    <field name="trad">¡Sí!</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-41</field>
+    <field name="entry">ahaatsiy</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Causar molestia a otra persona.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-42</field>
+    <field name="entry">ahuy</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Mezclar o juntar (animales).</field>
+    <field name="xref">taku</field>
+    <field name="xref">tallu</field>
+    <field name="xref">paqta</field>
+    <field name="xref">hukllawa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-43</field>
+    <field name="entry">ahweetay</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Var. de afweetay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-44</field>
+    <field name="entry">akaka</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Pito, gargacha (pájaro carpintero de hábi­tos terrestres, común en la puna): colaptes, rapícula.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-45</field>
+    <field name="entry">akapa</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Pequeño, lo que es pequeño, lo menudo.</field>
+    <field name="xref">ichik</field>
+    <field name="xref">taksha.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-46</field>
+    <field name="entry">akawshu</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">s.</field>
+    <field name="trad">Tubérculo comestible.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-47</field>
+    <field name="entry">akchiwshaa</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Estornudar.</field>
+    <field name="xref">hachiwsaa</field>
+    <field name="xref">haqchiwsaa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-48</field>
+    <field name="entry">akchuy</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad"/>
+    <field name="xref">achkuy.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-49</field>
+    <field name="entry">akisha</field>
+    <field name="etym"/>
+    <field name="lecte">AR</field>
+    <field name="pos">s.</field>
+    <field name="trad">Garrocha.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-50</field>
+    <field name="entry">akranakuy</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Seleccionar personas.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-51</field>
+    <field name="entry">akray</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Escoger p. e. granos.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-52</field>
+    <field name="entry">akshu</field>
+    <field name="etym"/>
+    <field name="lecte">COR.</field>
+    <field name="pos">s.</field>
+    <field name="trad">Papa.</field>
+    <field name="xref">papa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-53</field>
+    <field name="entry">aku₁</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">interj.</field>
+    <field name="trad">¡Vamos!</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-54</field>
+    <field name="entry">aku₂</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Pecado.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-55</field>
+    <field name="entry">akuchu</field>
+    <field name="etym">(del esp. Agustín).</field>
+    <field name="lecte">H</field>
+    <field name="pos">s.</field>
+    <field name="trad">Diminutivo.</field>
+    <field name="xref">akuuchu.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-56</field>
+    <field name="entry">akurma</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">s.</field>
+    <field name="trad">Cola de caballo (planta gramínea)</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-57</field>
+    <field name="entry">akusay</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">adj.</field>
+    <field name="trad">malo, de mal genio, malhumorado.</field>
+    <field name="xref">aqsay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-58</field>
+    <field name="entry">AKUSAY.</field>
+    <field name="etym">(del esp. acusar)</field>
+    <field name="lecte">HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad"/>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-59</field>
+    <field name="entry">akuy</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Comer machka.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-60</field>
+    <field name="entry">akuuchu</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Var. de akuchu.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-61</field>
+    <field name="entry">alalaay</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Enfriarse, ponerse frío, tener frío.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-62</field>
+    <field name="entry">ALALAAY.</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Hacer frío.</field>
+    <field name="xref">alalan</field>
+    <field name="xref">alalay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-63</field>
+    <field name="entry">alalaatsikuy</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Tener frío, enfriárselo.</field>
+    <field name="xref">alalaatsikuy</field>
+    <field name="xref">alalaatsikun.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-64</field>
+    <field name="entry">alankay</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos"/>
+    <field name="trad">Var. de allanka.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-65</field>
+    <field name="entry">alaq</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Frío.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-66</field>
+    <field name="entry">alay</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Hacer frío, temperatura fría.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-67</field>
+    <field name="entry">alayre</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos"/>
+    <field name="trad">Var. aheeri.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-68</field>
+    <field name="entry">altsay</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Arreglar, componer.</field>
+    <field name="xref">allitsaay</field>
+    <field name="xref">alltsay</field>
+    <field name="xref">allitsay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-69</field>
+    <field name="entry">aldaba</field>
+    <field name="etym">(del esp.)</field>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Poner cerrojo.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-70</field>
+    <field name="entry">aliman</field>
+    <field name="etym">(del esp.)</field>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">s. </field>
+    <field name="trad">Var. de maíz, blanco y grande.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-71</field>
+    <field name="entry">alfalfa</field>
+    <field name="etym">(del esp. alfalfa)</field>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="xref">alhwalhwa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-72</field>
+    <field name="entry">alforha</field>
+    <field name="etym">(del esp. alforja)</field>
+    <field name="lecte">H, AR, H</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="xref">alporha</field>
+    <field name="xref">alhorha.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-73</field>
+    <field name="entry">alhwal</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos"/>
+    <field name="trad">Var. de alfalfa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-74</field>
+    <field name="entry">alhwalhwa</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos"/>
+    <field name="trad">Var. de alfalfa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-75</field>
+    <field name="entry">alichu</field>
+    <field name="etym">(del esp. Alejandro)</field>
+    <field name="lecte">H, AR</field>
+    <field name="pos">s.</field>
+    <field name="trad">Diminutivo de Alejandro.</field>
+    <field name="xref">aliichu.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-76</field>
+    <field name="entry">alkoha</field>
+    <field name="etym">(del esp.)</field>
+    <field name="lecte">H, AR</field>
+    <field name="pos">s.</field>
+    <field name="trad">Chicha morada.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-77</field>
+    <field name="entry">alma</field>
+    <field name="etym">(del esp. alma)</field>
+    <field name="lecte">H, AR</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-78</field>
+    <field name="entry">alporha</field>
+    <field name="etym">(del esp.)</field>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Var. de alforha.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-79</field>
+    <field name="entry">alqushay</field>
+    <field name="etym"/>
+    <field name="lecte">BOL.</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Dar trago.</field>
+    <field name="xref">anqushay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-80</field>
+    <field name="entry">altay</field>
+    <field name="etym"/>
+    <field name="lecte">HS, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Sacar.</field>
+    <field name="xref">horquy.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-81</field>
+    <field name="entry">altus</field>
+    <field name="etym">(del esp.)</field>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Altos de la casa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-82</field>
+    <field name="entry">alumsu kasha</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Arbusto espinoso.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-83</field>
+    <field name="entry">alaatsiy</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Enfriar.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-84</field>
+    <field name="entry">aleeri</field>
+    <field name="etym">(del esp. al aire)</field>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Liviano, a la mano, a la vista.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-85</field>
+    <field name="entry">aliichu</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos"/>
+    <field name="trad">Var. de alichu.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-86</field>
+    <field name="entry">allay</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Cosechar (tubérculo), cavar.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-87</field>
+    <field name="entry">allankay</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Echarse de espaldas, caer de espaldas.</field>
+    <field name="xref">alankay</field>
+    <field name="xref">ankallay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-88</field>
+    <field name="entry">allaqay</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Ave de rapiña, de plumaje blanco y negro, vive en la puna; “ calzón blanco” ?</field>
+    <field name="xref">allqay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-89</field>
+    <field name="entry">allaapa</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">adv. c.</field>
+    <field name="trad">Mucho.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-90</field>
+    <field name="entry">allaapay</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Empeorar (la salud).</field>
+    <field name="xref">antsa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-91</field>
+    <field name="entry">allaapi</field>
+    <field name="etym"/>
+    <field name="lecte">HS</field>
+    <field name="pos">adv. c.</field>
+    <field name="trad">Var. de allaapa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-92</field>
+    <field name="entry">allaaw</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">interj.</field>
+    <field name="trad">¡Qué pena!, ¡Pobrecito! </field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-93</field>
+    <field name="entry">ALLAAW.</field>
+    <field name="etym"/>
+    <field name="lecte"/>
+    <field name="pos">tr.</field>
+    <field name="trad">Compa­decer.</field>
+    <field name="xref">achachaaw.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-94</field>
+    <field name="entry">alleq</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">adv. m.</field>
+    <field name="trad"/>
+    <field name="xref">allichaa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-95</field>
+    <field name="entry">alli</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Bueno.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-96</field>
+    <field name="entry">allitsaay</field>
+    <field name="etym"/>
+    <field name="lecte"/>
+    <field name="pos">tr.</field>
+    <field name="trad">Mejorar, arreglar.</field>
+    <field name="xref">altsay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-97</field>
+    <field name="entry">allichaa</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos">adv. m.</field>
+    <field name="trad">Bien, muy bien, perfecto.</field>
+    <field name="xref">alleq.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-98</field>
+    <field name="entry">allpa</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Tierra, suelo, polvo; tipo de tierra que se mezcla con **shashal** en la fabricación de ollas.
+Yuraq allpa. HUA s. Var. de tierra blanca.
+Puka allpa HUA s. Ibid, para hacer juguetes.
+Yana allpa HUA s. Ibid. de color negro.
+Allpa tsaka HUA s. Puente (de tierra).</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-99</field>
+    <field name="entry">allpa kuru</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Hormiga.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-100</field>
+    <field name="entry">allqash</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Blanco y negro, color de los animales, p. e. **allqash waaka**.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-101</field>
+    <field name="entry">allqay</field>
+    <field name="etym"/>
+    <field name="lecte">AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="xref">allaqay</field>
+    <field name="xref">qawqis.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-102</field>
+    <field name="entry">allqu</field>
+    <field name="etym"/>
+    <field name="lecte">H, HUA, AR</field>
+    <field name="pos">s.</field>
+    <field name="trad">Perro.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-103</field>
+    <field name="entry">allquchaay</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">tr.</field>
+    <field name="trad">Tratar como perro.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-104</field>
+    <field name="entry">allqusu</field>
+    <field name="etym"/>
+    <field name="lecte">AR</field>
+    <field name="pos">adj.</field>
+    <field name="trad">Perezoso.</field>
+    <field name="xref">qela.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-105</field>
+    <field name="entry">allwi</field>
+    <field name="etym">(del esp. arveja)</field>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Ruyru allwi. AR, HUA s. Var. de arveja.
+Senqa allwi. AR Ibid.</field>
+    <field name="xref">allwish.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-106</field>
+    <field name="entry">allwish₁</field>
+    <field name="etym">(del esp.)</field>
+    <field name="lecte">H, AR</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="xref">allwi.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-107</field>
+    <field name="entry">allwish₂</field>
+    <field name="etym">(del esp. Alfredo)</field>
+    <field name="lecte">HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Diminutivo.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-108</field>
+    <field name="entry">ama</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">neg.</field>
+    <field name="trad">No (prohibitivo).</field>
+    <field name="xref">mana.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-109</field>
+    <field name="entry">amanqay</field>
+    <field name="etym"/>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Planta conocida por su flor muy blanca.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-110</field>
+    <field name="entry">amiigu</field>
+    <field name="etym">(del esp. amigo)</field>
+    <field name="lecte">H, AR, HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="xref">yanaqi.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-111</field>
+    <field name="entry">amllu</field>
+    <field name="etym">(del esp. Ambrosio)</field>
+    <field name="lecte">HUA</field>
+    <field name="pos">s.</field>
+    <field name="trad">Diminutivo.</field>
+    <field name="xref">amlluchu.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-112</field>
+    <field name="entry">amlluchu</field>
+    <field name="etym">(del esp.)</field>
+    <field name="lecte">H</field>
+    <field name="pos">s.</field>
+    <field name="trad"/>
+    <field name="xref">amllu.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-113</field>
+    <field name="entry">ampa</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">s.</field>
+    <field name="trad">Yuca seca.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-114</field>
+    <field name="entry">ampatuy</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos">intr.</field>
+    <field name="trad">Caminar con dificultad.</field>
+    <field name="xref">tashtamay.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-115</field>
+    <field name="entry">ampay</field>
+    <field name="etym"/>
+    <field name="lecte">H</field>
+    <field name="pos"/>
+    <field name="trad">Var. de ampatuy.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-116</field>
+    <field name="entry">amperllu</field>
+    <field name="etym"/>
+    <field name="lecte">HUA</field>
+    <field name="pos"/>
+    <field name="trad"/>
+    <field name="xref">ampillqu</field>
+    <field name="xref">ampeqyaa.</field>
+    <field name="lang">qwh</field>
+  </doc>
+  <doc>
+    <field name="id">PARCHApol-117</field>
+    <field name="entry">ampi</field>
+    <field name="etym"/>
+    <field name="lecte">HS, AR, HUA</field>
+    <field name="pos">adv. t. </field>
+    <field name="trad">Oscuridad.</field>
+    <field name="lang">qwh</field>
+  </doc>
+</add>
