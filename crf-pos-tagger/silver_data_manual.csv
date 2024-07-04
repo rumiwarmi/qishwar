@@ -276,7 +276,7 @@
 274	5	tamya	N	False	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
 275	6	pasarishqa	VInt	False	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
 276	7	.	PUNCT	False	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-277	0	Veta	UNK	True	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+277	0	Veta	N	True	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
 278	1	llanuyanqanmannawmi	ADJ	False	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 279	2	qillayniipis	N	False	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
 280	3	karutsarqa	ADJ	False	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
