@@ -46,8 +46,8 @@ define VowelShorteningYaa a a (->) a || "^" y  _ (?* "^") m u ;
 define ShorteningShaa a a -> a || .#. s h _ "^" y a ;
 
 
-# La reducción vocálica aparece también en las raices verbales shaa-, chaa-, rikaa-, kachakaa-, mantsakaa- (la lista queda por completar)
-define RootShortening a a -> a || .#. [ c h | s h | r i k | k a c h a k | m a n t s a k ] _ "^" closedSyl ;
+# La reducción vocálica aparece también en las raices verbales shaa-, chaa-, rikaa-, kachakaa-, mantsakaa-, uraa- (la lista queda por completar)
+define RootShortening a a -> a || .#. [ c h | s h | r i k | k a c h a k | m a n t s a k | u r ] _ "^" closedSyl ;
 
 
 # El sufijo -chuu (variante de -chaw) pierde su duración en final de palabra
